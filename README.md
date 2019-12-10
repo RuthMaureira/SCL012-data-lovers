@@ -194,11 +194,11 @@ La tipografia se eligio desde google fonts de acuerdo a 2 objetivos:
 
 >"Que sea legible": Porque al contener bastante informacion ( especificamente en las tarjetas ) distribuida en lineas cercanas unas de otras , requiere una letra que se vea ordenada , sin quiebres para mayor fluidez en la lectura.
 
-por ello la eleciion fue 
+por ello la eleccion fue: 
 
-Roboto, sans-serif: Para titulos y textos cortos.
+* Roboto, sans-serif: Para titulos y textos cortos.
 
-Open Sans, sans-serif: Para textos mas largos por su mayor legibilidad.
+* Open Sans, sans-serif: Para textos mas largos por su mayor legibilidad.
 
 
 
