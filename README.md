@@ -1,469 +1,405 @@
-# Data Lovers
+# Kanto-dex
+
+
+
+
+![inicio](foto banner)
+
+ 
+
+
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Parte adicional-opcional (extensión)](#6-parte-adicional-opcional-extensión)
-* [7. Consideraciones técnicas](#7-consideraciones-técnicas)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
+* [Introducción](#Introducción)
+* [Definición del Producto](#Definición-del-Producto)
+* [Tipo de usuario](#Tipo-de-usuario)
+* [Objetivo principal ](#Objetivo-principal)
+* [Planificación](#Planificación)
+* [Historias de usuario](#Historias-de-usuario)
+* [Diseño](#Diseño)
+* [Sketch](#Sketch)
+* [Investigacion y Desarrollo](#Investigacion-y-Desarrollo)
+* [Prototipo de alta fidelidad](#Prototipo-de-alta-fidelidad)
+* [Testeo y usabilidad](#Testeo-y-usabilidad)
+* [Conclusiones y posibles soluciones](#Conclusiones-y-posibles-soluciones)
+
 
 ***
+## Introducción
 
-## 1. Preámbulo
+ 
 
-Según [Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read),
-el 90% de la data que existe hoy ha sido creada durante los últimos dos años.
-Cada día generamos 2.5 millones de terabytes de datos, una cifra sin precedentes.
 
-No obstante, los datos por sí mismos son de poca utilidad. Para que esas
-grandes cantidades de datos se conviertan en **información** fácil de leer para
-los usuarios, necesitamos entender, procesar y mostrar estos datos. Una manera
-simple de hacerlo es creando _interfaces_ y _visualizaciones_.
+## Definición del Producto
 
-En la siguiente imagen, podrás ver cómo con la data que que se ve en la parte
-izquierda se puede construir (a la derecha) una interfaz amigable y comprensible
-para el usuario.
 
-![json-interfaz](https://lh4.googleusercontent.com/Tn-RPXS26pVvOTdUzRT1KVaJ-_QbFs9SpcGLxSPE43fgbHaXtFgMUInuDt7kV41DkT1j8Tt29V0LxQW7SMtC6digOIhfTXSBKdwI08wUwhD3RAqlwy0hjfmhZ2BFe91mtmCSEqysfgk)
 
-\* Puedes ver el detalle de la data en este [link](https://gist.github.com/lalogf/dd4aa3017a9f8aa8f90dfbca382c4dc9#file-student-json)
-y la interfaz construida en este [link](https://app.talento.laboratoria.la/profile/HFOoMpOreBU2psCcjjLg5O2EWEv2).
+ 
+##  Tipo de usuario
+Usuario frecuente de la aplicacion Pokemon Go 
 
-## 2. Resumen del proyecto
 
-En este proyecto **construirás una _página web_ para visualizar un
-_conjunto (set) de datos_** que se adecúe a lo que tu usuario necesita.
 
-Como entregable final tendrás una página web que permita a los usuarios
-**visualizar, filtrar, ordenar, etc.**.
+## Objetivo principal 
 
-Te proponemos una serie de datos de diferentes _temáticas_ para que los
-explores y decidas con cuál te interesa trabajar. Cada _set_ de datos viene con
-información básica sobre los datos y su estructura, y una lista de las
-necesidades de los usuarios que proviene de una investigación (_research_)
-hecha por el equipo de Laboratoria.
 
-Una vez que elijas, diseña tu proyecto intentando ofrecerle la mejor experiencia
-posible para ayudarle a satisfacer sus necesidades.
 
-### Estos son datos que te proponemos:
 
-* [Pokémon](src/data/pokemon/pokemon.json):
-  En este set encontrarás una lista con los 151 Pokémon de la región de Kanto, 
-  junto con sus respectivas estadísticas usadas en el juego
-  [Pokémon GO](http://pokemongolive.com).
-  * [Investigación con jugadores de Pokémon Go](/src/data/pokemon/README.md)
+## Planificación
 
-* [League of Legends - Challenger leaderboard](src/data/lol/lol.json):
-  Este set de datos muestra la lista de campeones en una liga del
-  juego League of Legends (LoL).
-  * [Investigación con jugadores de LoL](/src/data/lol/README.md)
 
-* [Harry Potter](src/data/potter/potter.json):
-  Este set de datos muestra la lista de los personajes del mundo de
-  [Harry Potter: Wizards Unite](https://www.wizardingworld.com), junto con sus
-  respectivas características mencionadas en la serie de novelas de Harry Potter
-  escrita por la autora británica J.K.Rowling.
-  * [Investigación con jugadores de Harry Potter: Wizards Unite](/src/data/potter/README.md)
 
 
-## 3. Objetivos de aprendizaje
+-Tareas en `Trello` Puedes revisarlo haciendo click [aquí]()
 
-El objetivo principal de este proyecto es que, entendiendo las necesidades de
-tus usuarios, aprendas a diseñar y construir una interfaz web donde se pueda
-visualizar y manipular data.
 
-Revisa la lista y reflexiona sobre los objetivos que conseguiste en el
-proyecto anterior. Piensa en eso al decidir tu estrategia de trabajo individual
-y de equipo.
+___
 
-### UX
+# Historias de Usuario
 
-- [ ] Diseñar la aplicación pensando y entendiendo al usuario.
-- [ ] Crear prototipos para obtener _feedback_ e iterar.
-- [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
-- [ ] Planear y ejecutar _tests_ de usabilidad.
+L:
 
-### HTML y CSS
+#### Historia 1
 
-- [ ] Entender y reconocer por qué es importante el HTML semántico.
-- [ ] Identificar y entender tipos de selectores en CSS.
-- [ ] Entender como funciona `flexbox` en CSS.
-- [ ] Construir tu aplicación respetando el diseño planeado (maquetación).
+>""
 
-### DOM
+ 
+#### Historia 2
 
-- [ ] Entender y reconocer los selectores del DOM (querySelector | querySelectorAll).
-- [ ] Manejar eventos del DOM. (addEventListener)
-- [ ] Manipular dinámicamente el DOM. (createElement, appendchild, innerHTML, value)
+>""
+ 
 
-### Javascript
+#### Historia 3
 
-- [ ] Manipular arrays (`filter` | `map` | `sort` | `reduce`).
-- [ ] Manipular objects (key | value).
-- [ ] Entender el uso de condicionales (`if-else` | `switch`).
-- [ ] Entender el uso de bucles (`for` | `forEach`).
-- [ ] Entender la diferencia entre expression y statements.
-- [ ] Utilizar funciones (parámetros | argumentos | valor de retorno).
-- [ ] Entender la diferencia entre tipos de datos atómicos y estructurados.
-- [ ] Utilizar ES Modules (`import` | `export`).
+>" "
 
-### Pruebas Unitarias (_testing_)
-- [ ] Testear funciones (funciones puras).
 
-### Git y GitHub
-- [ ] Ejecutar comandos de git (`add` | `commit` | `pull` | `status` | `push`).
-- [ ] Utilizar los repositorios de GitHub (`clone` | `fork` | gh-pages).
-- [ ] Colaborar en Github (pull requests).
+#### Historia 4
 
-### Buenas prácticas de desarrollo
-- [ ] Organizar y dividir el código en módulos (Modularización).
-- [ ] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
-- [ ] Utilizar linter para seguir buenas prácticas (ESLINT).
+>" "
 
-### Soft skills
-- [ ] **Planificación, organización y manejo del tiempo** Organizarse utilizando historias de usuario, haciendo una estimación general de los tiempos que se necesitarán para la realización del proyecto. Conocer las ceremonias y artefactos ágiles (sprint planning, dailys, retrospectiva, tablero al menos, etc) a pesar de que no se utilicen con regularidad. 
 
-- [ ] **Trabajo en equipo** Trabajar con otros de forma colaborativa y en base a un objetivo común, entregando ideas para la construcción del proyecto
 
-- [ ] **Autoaprendizaje** Demostrar interés y adquirir nuevos conocimientos autónomamente, estudiando de manera independiente, lo que se traduce, en que cuando es necesario, la estudiante buscará aclarar conceptos y resolver dudas sobre la materia.
 
-- [ ] **Presentaciones** Utilizar ciertas estrategias para hablar en público (tono y ritmo de voz adecuado, contacto visual con el público, interacción con medios de presentación), que permitan asegurar un mediano entendimiento de la audiencia.
 
-- [ ] **Adaptabilidad** Afrontar los cambios inesperados o nuevos desafíos con una actitud positiva, aunque no necesariamente se logre accionar o adaptarse de la mejor manera a los diferentes contextos.
+#### Los objetivos principales se resumirían en :
 
-- [ ] **Solución de problemas** Trabajar en la búsqueda y en la elaboración de soluciones alternativas a problemas de mediana complejidad.
 
-- [ ] **Responsabilidad** Demostrar actitud de compromiso, reflejandolo en la entrega de trabajo a tiempo, llegando a la hora acordada y/o avisando cuando no se pueda asistir.
+*
 
-- [ ] **Dar y recibir feedback** Escuchar los comentarios y críticas de los demás de manera respetuosa, y/o comunicar a los demás las opiniones de forma constructiva.
+*
 
-- [ ] **Comunicación eficaz** Comunicar ideas a los demás cuando es necesario, aunque no siempre se fomenten de manera proactiva estas instancias de comunicación.
+*
 
-## 4. Consideraciones generales
+*
 
-* Este proyecto se debe resolver en duplas.
-* El proyecto será entregado subiendo tu código a GitHub (`commit`/`push`) y la
-  interfaz será desplegada usando [GitHub Pages](https://pages.github.com/).
-* Tiempo: toma como referencia 3 semanas.
 
-## 5. Criterios de aceptación mínimos del proyecto
 
-Los criterios que deberás considerar para saber si has completado este proyecto
-son:
+___
 
-### Definición del producto
+# DISEÑO
 
-Documenta brevemente tu trabajo en el archivo `README.md` de tu repositorio,
-contándonos cómo fue tu proceso de diseño y cómo crees que el producto resuelve
-el problema (o problemas) que tiene tu usuario.
 
-### Historias de usuario
+## Sketch
 
-Una vez que entiendas las necesidades de tus usuarios, escribe las [Historias
-de Usuario](https://es.wikipedia.org/wiki/Historias_de_usuario) que representen
-todo lo que el usuario necesita hacer/ver. Las **Historias de Usuario** deben
-ser el resultado de tu proceso de entendimiento de tus usuarios.
 
-Asegúrate de incluir la definición de terminado (_definition of done_) y los
-Criterios de Aceptación para cada una.
 
-En la medida de lo posible, termina de construir una historia de usuario antes
-de pasar a la siguiente (Cumple con Definición de Terminado + Criterios de
-Aceptación).
+Este contaba con:
+ 
+* Pagina de inicio.
+* Instrucciones de la web app
+* 
+* 
+* 
+* 
 
-### Diseño de la Interfaz de Usuario
 
-#### Prototipo de baja fidelidad
+![sketch]()
+ 
 
-Durante tu trabajo deberás haber hecho e iterado bocetos (_sketches_) de tu
-solución usando papel y lápiz. Te recomendamos tomar fotos de todas las
-iteraciones que hagas, que las subas a tu repositorio y las menciones en tu
-`README.md`.
+   
+## Investigacion y Desarrollo
 
-#### Prototipo de alta fidelidad
 
-Lo siguiente es diseñar tu Interfaz de Usuario (UI por sus siglas en inglés -
-_User Interface_). Para eso debes aprender a utilizar alguna herramienta de
-diseño visual. Nosotros te recomendamos [Figma](https://www.figma.com/) que es
-una herramienta que funciona en el navegador y, además, puedes crear una cuenta
-gratis. Sin embargo, eres libre de utilizar otros editores gráficos como
-Illustrator, Photoshop, PowerPoint, Keynote, etc. Recuerda utilizar la
-[identidad gráfica](https://drive.google.com/open?id=1eeWFqrWpy-OYOH4EHDckFGunyrm9iNeE)
-correspondiente a cada set de datos que elijas.
+Una vez hecho el sketch,  cumplieran con 3 caracteristicas principales:
 
-El diseño debe representar el _ideal_ de tu solución. Digamos que es lo que
-desearías implementar si tuvieras tiempo ilimitado para trabajar. Además, tu
-diseño debe seguir los fundamentos de _visual design_.
+1)
 
-#### Testeos de usabilidad
+2)
 
-Durante el reto deberás hacer _tests_ de usabilidad con distintos usuarios, y
-en base a los resultados, deberás iterar tus diseños. Cuéntanos
-qué problemas de usabilidad detectaste a través de los _tests_ y cómo los
-mejoraste en tu propuesta final.
+3)
 
-### Implementación de la Interfaz de Usuario (HTML/CSS/JS)
 
-Luego de diseñar tu interfaz de usuario deberás trabajar en su implementación.
-**No** es necesario que construyas la interfaz exactamente como la diseñaste.
-No tienes tiempo ilimitado para trabajar, así es que deberás priorizar.
 
-Como mínimo, tu implementación debe:
+___
 
-1. Mostrar la data en una interfaz: puede ser un card, una tabla, una lista, etc.
-2. Permitir al usuario interactuar para obtener la infomación que necesita. <!--filtrar y ordenar la data.-->
-3. Ser _responsive_, es decir, debe visualizarse sin problemas desde distintos
-   tamaños de pantallas: móviles, tablets y desktops.
-4. Que la interfaz siga los fundamentos de _visual design_.
+## Paleta de colores
 
-### Pruebas unitarias
 
-El _boilerplate_ de este proyecto no incluye Pruebas Unitarias (_tests_), así es
-que  tendrás que escribirlas tú para las funciones que tenga tu código. <!--encargadas de  _procesar_, _filtrar_ y _ordenar_ la data, así como _calcular_
-estadísticas.-->
 
-Tus _pruebas unitarias_ deben dar una cobertura del 70% de _statements_
-(_sentencias_), _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
-(_ramas_) del archivo `src/data.js` que contenga tus funciones y está detallado
-en la sección de [Consideraciones técnicas](#srcdatajs).
 
-## 6. Parte adicional-opcional (extensión)
+Si quieres revisar la paleta de colores puedes seguir este enlace : [aquí]()
 
-Si **terminaste** con todo lo anterior y te queda tiempo, intenta explorar y
-completar parte o todo de lo siguiente:
-
-* En lugar de consumir la data estática brindada en este repositorio, puedes
-  consumir la data de forma dinámica, cargando un archivo JSON por medio de
-  `fetch`. La carpeta `src/data` contiene una versión `.js` y una `.json` de
-  de cada set datos.
-
-* Agregarle a tu interfaz de usuario implementada visualizaciones gráficas. Para
-  ello te recomendamos explorar librerías de gráficas como [Chart.js](https://www.chartjs.org/)
-  o [Google Charts](https://developers.google.com/chart/).
-
-* 100% Coverage de pruebas unitarias.
-
-## 7. Consideraciones técnicas
-
-La lógica del proyecto debe estar implementada completamente en JavaScript
-(ES6), HTML y CSS. En este proyecto NO está permitido usar librerías o
-frameworks, solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e),
-con la excepción de librerías para hacer gráficas (charts); ver
-[_Parte opcional_](#6-hacker-edition) más arriba.
-
-No se debe utilizar la _pseudo-variable_ `this`.
-
-El _boilerplate_ contiene una estructura de archivos como punto de partida así
-como toda la configuración de dependencias:
-
-```text
+![sketch]()
 .
-├── pokemon
-|  ├── README.md
-├── potter
-|  ├── README.md
-├── lol
-|  ├── README.md
-├── src
-|  ├── data (según con qué data trabajes)
-|  |  ├── lol
-|  |  |  ├── lol.js
-|  |  |  └── lol.json
-|  |  ├── pokemon
-|  |  |  ├── pokemon.js
-|  |  |  └── pokemon.json
-|  |  ├── potter
-|  |  |  ├── potter.js
-|  |  |  └── potter.json
-|  ├── data.js
-|  ├── index.html
-|  ├── main.js
-|  └── style.css
-├── test
-|  ├── data.spec.js
-├── README.md
-└── package.json
 
-directory: 9 file: 16
-```
 
-### `src/index.html`
+## Principios de Diseño Visual
 
-Como en el proyecto anterior, existe un archivo `index.html`. Como ya sabes,
-acá va la página que se mostrará al usuario. También nos sirve para indicar
-qué script se usará y unir todo lo que hemos hecho.
 
-Encontrarás 1 etiqueta inicial, la cual si deseas puedes borrar y empezar de cero:
+### Contraste
 
-```
- <div id="root"></div>
-```
+Existen 3 formas para generar contraste dentro de un diseño.
 
-### `src/main.js`
+A través de la forma, con la ruptura del patrón.
+A través del color, se basa en las propiedades del color (tono, valor, saturación).
+A través de relaciones de tamaño de las formas.
+Como la web app es pequeña, decidi ocupar este principio solo en el color , como se mostro anteriormente , al elegir dos tonos muy diferentes entre si . El primario se usara como base , para que destaquen las imagenes y el texto , y el secundario para aquellos elementos que deseo resaltar.
 
-Acá escribirás todo el código que tenga que ver con la interacción del DOM
-(seleccionar, actualizar y manipular elementos del DOM y eventos). Es decir,
-en este archivo deberás invocar a tus funciones exportadas en el boilerplate,
-según sea necesario para realizar operaciones como creación de nodos,
-registro de manejadores de eventos (_event listeners_ o _event handlers_), ....
 
-En este archivo encontrarás una serie de _sentencias_ `import`
-_comentadas_. Para _cargar_ las diferentes fuentes de datos tendrás que
-_descomentar_ estas _sentencias_. Cada una de estas sentencias importará un
-objeto, el cual ya se encuentra exportado en el boilerplate. Este objeto
-contiene la data correspondiente a esa fuente de datos.
 
-Por ejemplo, si "descomentamos" la siguiente línea:
+### Repeticion
 
-```
- /**
- import LoL from './data/lol/lol.js'
- */
-```
+La repetición le da unidad, consistencia y cohesión al conjunto, esta suele aportar una inmediata sensación de armonía.
+La presencia de módulos tiende a unificar, por esto en el prototipo se repetira la misma estructura y posicion del header, los mismos colores y el mismo diseño de botones, solo habra cambios en el contenido de cada seccion.
 
-La línea quedaría así:
 
-```
-import LoL from './data/lol/lol.js'
-```
 
-Y ahora tendríamos el objeto `LoL` disponible en nuestro archivo (`src/main.js`).
+### Alineacion
 
-Esta no es la única forma de dividir tu código, puedes usar más archivos y
-carpetas, siempre y cuando la estructura sea clara para tus compañeras.
+Alinear los elementos es una operación imprescindible para conseguir una composición ordenada y lógica, con ello se crean unidades visuales definidas y relaciones entre elementos.
+A excepcion del nombre y el menu del header, todo esta alineado al centro,porque se esta trabajando con datos que se repiten y estan cuadriculados y eso ayuda a que se vea ordenado y simetrico. 
+Se testeara el prototipo, si tiene buena aceptacion se dejara asi, 
+sino, se intentaran algunos cambios en la alineacion despues del menu, en la seccion de ingreso de datos y pago ( hacia el izquierdo, porque al derecho puede ocasionar algo de tension visual , en cambio el orden hacia el lado izquierdo , suele sentirse mas comodo porque nuestra vista esta acostumbrada a tratar con ello).
 
-### `src/data.js`
 
-El corazón de este proyecto es la manipulación de datos a través de arreglos
-y objetos.
 
-Te recomendamos que este archivo contenga toda la funcionalidad que corresponda
-a obtener, procesar y manipular datos (tus funciones). Por ejemplo:
+### Jerarquia
 
-* `filterData(data, condition)`: esta función `filter` o filtrar recibiría la
-  data, y nos retornaría aquellos datos que sí cumplan con la condición.
+Existe un orden jerárquico en la visión siendo el primer punto el más importante. Jerarquizar es ordenar en función de distintos parámetros diversos elementos. En el diseño, la jerarquía establece la mayor o menos importancia de los elementos que incluimos. En concreto es aquello que prioriza la visión.
+Algunos de los elementos gráficos como el color, el tamaño, la posición, las anomalías, las formas , tienen una clara connotación jerárquica.
+En este caso se aplico principalmente con la Tipografia.
+Las palabras más importantes muestran un mayor impacto, por lo que los usuarios pueden obtener la información clave con mayor claridad, entonces al dar reelevancia a los titulos de las secciones en relacion con el resto del texto aumentando su tamaño, llamará más la atención por lo que tendrán mayor grado de importancia. 
 
-* `sortData(data, sortBy, sortOrder)`: esta función `sort` u ordenar
-  recibe tres parámetros.
-  El primer parámetro, `data`, nos entrega los datos.
-  El segundo parámetro, `sortBy`, nos dice con respecto a cuál de los campos de
-  la data se quiere ordenar.
-  El tercer parámetro, `sortOrder`, indica si se quiere ordenar de manera
-  ascendente o descendente.
 
-* Y así sucesivamente, según tu proyecto en particular.
 
-Estos nombres de funciones y de parámetros son solamente referenciales, lo que
-decidas depende de tu propia implementación.
+## Fuentes
 
-Estas funciones deben ser [_puras_](https://medium.com/laboratoria-developers/introducci%C3%B3n-a-la-programaci%C3%B3n-funcional-en-javascript-parte-2-funciones-puras-b99e08c2895d)
-e independientes del DOM. Estas funciones serán exportadas en el boilerplate, para
-después ser usadas desde el archivo `src/main.js`, al cargar la página, y cada vez
-que el usuario interactúe (click, filtrado, ordenado, ...).
 
-### `src/data`
 
-En esta carpeta están los datos de las diferentes fuentes. Encontrarás una
-carpeta por cada fuente, y dentro de cada carpeta dos archivos: uno con la
-extensión `.js` y otro `.json`. Ambos archivos contienen la misma data; la
-diferencia es que el `.js` lo importaremos como un objeto al archivo main.js,
-mientras que el `.json` está ahí para opcionalmente cargar la data de forma
-asíncrona con [`fetch()`](https://developer.mozilla.org/es/docs/Web/API/Fetch_API)
-(ver sección de [_Parte Opcional_](#6-hacker-edition)).
+La tipografia se eligio desde google fonts de acuerdo a 2 objetivos: 
 
-### `test/data.spec.js`
+>"Que sea moderna": Porque el diseño de la app , si bien esta enfocado en un grupo etareo bastante amplio, la aplicacion es juvenil y animada , por ello , requiere una letra que coincida , con la Imagen que se desea mostrar.
 
-Tendrás también que completar las pruebas unitarias de las funciones
-implementadas en el archivo `data.js`.
+>"Que sea legible": Porque al contener bastante informacion ( especificamente en las tarjetas ) distribuida en lineas cercanas unas de otras , requiere una letra que se vea ordenada , sin quiebres para mayor fluidez en la lectura.
 
-## 8. Pistas, tips y lecturas complementarias
+por ello la eleccion fue: 
 
-### Primeros pasos
+* Roboto, sans-serif: Para titulos y textos cortos.
 
-Antes de empezar a escribir código, debes definir qué deberá hacer el producto
-en base al conocimiento que puedas obtener de tu usuario. Estas preguntas te
-pueden ayudar:
+* Open Sans, sans-serif: Para textos mas largos por su mayor legibilidad.
 
-* ¿Quiénes son los principales usuarios de producto?
-* ¿Cuáles son los objetivos de estos usuarios en relación con el producto?
-* ¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?
-* ¿Cuándo utilizan o utilizarían el producto?
-* Toda tu investigación previa debe tener como resultado todas las Historias
-  de Usuario de tu proyecto.
-* No hagas los prototipos de alta fidelidad de todas tus Historias. Comienza
-  solamente por los que se necesiten para tu Sprint 1 (semana 1 de trabajo). Más
-  pistas en la guía de organización para el proyecto.
 
-Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 
-1. Una de las integrantes del equipo debe realizar un :fork_and_knife:
-   [fork](https://help.github.com/articles/fork-a-repo/) del repo de tu cohort,
-   tus _coaches_ te compartirán un _link_ a un repo y te darán acceso de lectura
-   en ese repo. La otra integrante del equipo deber hacer un fork **del
-   repositorio de su compañera** y [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1)
-   un `remote` hacia el mismo.
-2. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
-   tu _fork_ a tu computadora (copia local).
-3. 📦 Instala las dependencias del proyecto con el comando `npm install`. Esto
-   asume que has instalado [Node.js](https://nodejs.org/) (que incluye [npm](https://docs.npmjs.com/)).
-4. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
-   pruebas unitarias (unit tests) con el comando `npm test`.
-5. Para ver la interfaz de tu programa en el navegador, usa el comando
-  `npm start` para arrancar el servidor web y dirígete a
-  `http://localhost:5000` en tu navegador.
-6. A codear se ha dicho! :rocket:
+![fuentes](https://i.ibb.co/b24vVbv/Screenshot-from-2019-12-10-12-51-06-1.png)
 
-***
 
-### Contenido de referencia
+Para conocer las fuentes elegidas, puedes revisar el siguiente enlace: [aquí](https://fonts.google.com/selection?selection.family=Open+Sans|Roboto)
 
-#### Diseño de experiencia de usuario (User Experience Design)
 
-* Investigación con usuarios / entrevistas
-* Principios de diseño visual
 
-#### Desarrollo Front-end
 
-* [Unidad de testing en curso de JavaScript en LMS.](https://lms.laboratoria.la/cohorts/scl-2019-10-bc-core-scl012/courses/javascript/11-testing/00-opening)
-* [Unidad de arreglos en curso de JavaScript en LMS.](https://lms.laboratoria.la/cohorts/scl-2019-10-bc-core-scl012/courses/javascript/04-arrays/01-arrays)
-* [Unidad de objetos en curso de JavaScript en LMS.](https://lms.laboratoria.la/cohorts/scl-2019-10-bc-core-scl012/courses/javascript/05-objects/01-objects)
-* [Unidad de funciones en curso de JavaScript en LMS.](https://lms.laboratoria.la/cohorts/scl-2019-10-bc-core-scl012/courses/javascript/03-functions/00-opening)
-* [Unidad de DOM en curso de Browser JavaScript en LMS.](https://lms.laboratoria.la/cohorts/scl-2019-10-bc-core-scl012/courses/browser/02-dom/00-opening)
-* [Array en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array)
-* [Array.sort en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort)
-* [Array.map en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/map)
-* [Array.filter en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/filter)
-* [Array.reduce en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/reduce)
-* [Array.forEach en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach)
-* [Object.keys en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/keys)
-* [Object.entries en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/entries)
-* [Fetch API en MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
-* [json.org](https://json.org/json-es.html)
-* [expressions-vs-statements](https://2ality.com/2012/09/expressions-vs-statements.html)
-* [expresión vs sentencia](https://openclassrooms.com/en/courses/4309531-descubre-las-funciones-en-javascript/5108986-diferencia-entre-expresion-y-sentencia)
-* [datos atomicos vs datos estructurados](https://www.todojs.com/tipos-datos-javascript-es6/)
-* [Modulos: Export](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/export)
-* [Modulos: Import](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/import)
+___
 
-#### Herramientas
+## Prototipo de alta fidelidad
 
-* [Git](https://git-scm.com/)
-* [GitHub](https://github.com/)
-* [GitHub Pages](https://pages.github.com/)
-* [Node.js](https://nodejs.org/)
-* [Jest](https://jestjs.io/)
 
-#### Organización del Trabajo
 
-* [Historias de Usuario](https://www.youtube.com/watch?v=ky6wFiF5vMk&t=344s).
-  Ojo que Cris no diferencia _Definición de terminado_ de _Criterios de
-  Aceptación_ y nosotros sí lo haremos. Más detalles en la guía.
-* [Cómo dividir H.U.](https://www.youtube.com/watch?v=Ueq786iZ30I&t=341s)
-* [Guía para Data Lovers](https://docs.google.com/presentation/d/e/2PACX-1vQhx9D36NjpH-Daea-ITPUDUzNL8ZiNAprq_7b5PSUrfutk45tEtaOLz2lmd8f54_5jX1hypDM8f8SM/pub?start=false&loop=false&delayms=60000)
+___ 
+![Figma]()
 
-***
+
+![Luhn]()
+
+
+* Versión  Escritorio
+
+Puedes interactuar con el prototipo haciendo click[ aquí ]()
+
+
+
+ ___ 
+
+
+# Testeo y Usabilidad
+
+
+Los test de usabilidad son una forma de probar cómo los visitantes navegan en tu sitio web con el objetivo de facilitar su experiencia web y dejarla cada vez más simple e intuitiva. 
+Para ver la usabilidad del ultimo prototipo, se realizo un testeo a la versión de Desktop.
+
+
+### Objetivos de testeo
+
+* Probar si la interfaz es fácil de entender o necesita mayor instrucción.
+* Comprobar si el acceso y los enlaces siguen un orden lineal.
+* Comprobar sia.
+ 
+
+
+## Test de usabilidad
+
+Como es un sitio ....l.
+
+
+
+#### Usuario 1
+
+
+
+
+#### Observaciones del usuario
+
+>" "
+
+>" "
+
+>" "
+
+
+
+#### Usuario 2
+
+.
+
+#### Observaciones del usuario
+
+>" "
+
+>" "
+
+>" " 
+
+
+
+
+#### Usuario 3
+
+
+
+#### Observaciones del usuario
+
+>" ".
+
+>"  ".
+
+>"  ".
+
+
+
+
+#### Usuario 4
+
+.
+
+
+>"".
+
+>"". 
+
+>""
+
+
+
+
+
+
+
+#### Usuario 5
+
+l.
+
+
+
+#### Observaciones del usuario
+
+>" ".
+
+>" ".
+
+>" ". 
+
+
+
+
+
+
+Para ver el video del ultimo usuario probando el prototipo . Ver en este link [aquí]()
+
+
+
+
+
+ ___ 
+
+
+## Conclusiones y posibles Soluciones
+
+
+![prototipo]()
+
+Uno de los cambios que se realizaron en la aplicacion final 
+
+
+
+### Aprendizaje:
+
+Es la facilidad con la que el usuario es capaz de desarrollar las tareas asignadas por primera vez.
+Salvo algunas desviaciones ( las cuales fueron mas de caracter explorativo ) los usuarios pudieron comprender la funcion de cada uno de los botones y elementos,ademas de entender hacia donde iban estos. 
+La experiencia con otras paginas web, hizo que llevaran a cabo las instrucciones que se les habia dado, sin mayor dificultad.
+ Esto es porque la estructura es muy semejante a otras web de compras.
+
+
+### Eficiencia
+
+Es la destreza con la que usuarios con experiencia llevan a cabo las instrucciones que se les han dado. Su similitud a otras paginas de ventas , principalmente en la entrega de datos y pago , da una sencaion de familaridad y esto permite que el usuario , cumpla su objetivo ( realizar una compra) , sin mayor problema.
+Eso si , se considera agregar mas informacion sobre los precios y a las imagenes, a solicitud de los usuarios.
+
+
+
+
+### Memoria
+
+Se evaluo si al pasar cierto tiempo, después de la primera interacción, el usuario fue capaz de recordar cómo funciona la aplicación sin necesidad de aprender a manejarla nuevamente.Y no se registraron problemas con eso , efectivamente los usuarios no requirieron repetir para entenderla
+
+
+
+
+### Errores
+
+La cantidad y gravedad de errores que cometa el usuario al interactuar con la aplicación, de igual manera se analiza la facilidad con la que se pueden enmendar los errores cometidos durante la prueba.
+Si bien se considero anular los botones sin funcion en el figma , al realizar la aplicacion final estos se dejaron porque eventualmente si se les podria agregar un enlace.
+Los errores de navegacion, en realidad solo fueron parte del proceso de exploracion en la pagina.
+
+ 
+### Satisfacción
+
+Se evaluo qué tan satisfactoria fue la experiencia del usuario y si de alguna manera disfrutó la forma en que está diseñado el producto.
+La Recepcion en general fue positiva ,segun los comentarios de cada uno. 
+Si esta web existiera, la ocuparian, ya que consideran que tiene caracteristicas que no encuentran en otros sitios : tales como , la agilidad , la simpleza en su uso.
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
