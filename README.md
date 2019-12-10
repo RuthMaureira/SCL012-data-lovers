@@ -37,7 +37,7 @@
 
  
 ##  Tipo de usuario
-
+Usuario frecuente de la aplicacion Pokemon Go 
 
 
 
@@ -187,16 +187,25 @@ Las palabras más importantes muestran un mayor impacto, por lo que los usuarios
 ## Fuentes
 
 
-Las fuentes (tipografías), son uno de los pilares más importantes del diseño web. La elección de una tipografía adecuada, su tamaño, color, espacio entre letras, interlineado y otras características pueden cambiar, de forma consciente o inconsciente, la forma en la que una persona interpreta o accede a los contenidos de una página web.
-Para la tipografia elegi desde google fonts de acuerdo a los objetivos y a la imagen de la marca.
+
+La tipografia se eligio desde google fonts de acuerdo a 2 objetivos: 
+
+>"Que sea moderna": Porque el diseño de la app , si bien esta enfocado en un grupo etareo bastante amplio, la aplicacion es juvenil y animada , por ello , requiere una letra que coincida , con la Imagen que se desea mostrar.
+
+>"Que sea legible": Porque al contener bastante informacion ( especificamente en las tarjetas ) distribuida en lineas cercanas unas de otras , requiere una letra que se vea ordenada , sin quiebres para mayor fluidez en la lectura.
+
+por ello la eleciion fue 
+
+Roboto, sans-serif: Para titulos y textos cortos.
+
+Open Sans, sans-serif: Para textos mas largos por su mayor legibilidad.
 
 
 
+![fuentes](https://i.ibb.co/b24vVbv/Screenshot-from-2019-12-10-12-51-06-1.png)
 
 
-![fuentes]()
-
-Para conocer las fuentes elegidas, puedes revisar el siguiente enlace: [aquí]()
+Para conocer las fuentes elegidas, puedes revisar el siguiente enlace: [aquí](https://fonts.google.com/selection?selection.family=Open+Sans|Roboto)
 
 
 
