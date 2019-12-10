@@ -28,6 +28,46 @@ body {
   background-color: #3A69C2;
 }
 
+#navigation, #kantodex, #wrap {
+  display: none;
+}
+
+/* #home {
+  display:none;
+} */
+
+.title {
+  margin: 7rem 0;
+  text-align: center;
+}
+
+.ball {
+  margin-top: 5rem;
+  width: 250px;
+  height: 250px;
+  background-image: url('images/ball.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  left: 25%;
+  animation: ball 5s;
+}
+
+@keyframes ball {
+  0% { opacity: 0; }
+}
+
+.entrar {
+  color: black;
+  font-size: 2rem;
+  z-index: 100;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  bottom: 70%;
+}
+
+
 /* navigation */
 a {
   color: #FFF;
@@ -196,6 +236,22 @@ a {
   .menu {
     padding-right: 100px;
   }
+
+  .ball {
+    left: 43%;
+  }
+
+  #navigation, #kantodex  {
+    display: block;
+  }
+
+  #wrap {
+    display: flex;
+  }
+
+  #home {
+    display:none;
+  }
 }
 
 @media (min-width: 992px) {
@@ -295,7 +351,7 @@ a {
   text-align: center;
 }
 
-.container h1 {
+.container h1, .home h1 {
   color: #fff;
   font-weight: bolder;
   font-size: 3rem;

@@ -9,7 +9,7 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="images/ball.png">
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Roboto:400,700&display=swap" rel="stylesheet">
   <!-- fontawesome icons -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
   <!-- CSS -->
@@ -26,7 +26,7 @@
 
 
   <!-- navbar navegación -->
-  <nav class="navigation">
+  <nav class="navigation" id="navigation">
     <a href="" class="logo"><img src="images/logo.png" alt="logo" class="navigation__img"></a>
     <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
@@ -37,7 +37,17 @@
     </ul>
   </nav>
 
-  <!-- sección select -->
+  <section class="home" id="home">
+    <h1 class="title"> KantoDex </h1>
+    <a href="#kantodex"><div class="ball">
+        <h2 class="entrar">Go!</h2>
+      </div></a>
+
+    <!-- <img src="images/ball.png" alt="ball_ingreso" class="imgIngreso"> -->
+
+  </section>
+
+  <!-- sección kantodex -->
   <section class="container" id="kantodex">
     <button id="myBtn"><i class="far fa-pause-circle fa-2x"></i></button>
     <h1> KantoDex </h1>
@@ -115,6 +125,11 @@
 
 
   <div id="wrap" class="wrap"></div>
+
+
+  <section id="kantotop">
+
+  </section>
 
   <script type="module" src="main.js"></script>
 
