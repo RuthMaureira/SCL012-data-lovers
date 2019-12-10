@@ -1,16 +1,125 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <title>Kantodex</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <title>KantoDex</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/ball.png">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <!-- fontawesome icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Background páginas -->
+  <video autoplay muted loop id="myVideo">
+    <source src="images/bg_blue.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+
+
+  <!-- navbar navegación -->
+  <nav class="navigation">
+    <a href="" class="logo"><img src="images/logo.png" alt="logo" class="navigation__img"></a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="#home">Inicio</a></li>
+      <li><a href="#kantodex" class="nav-link">KantoDex</a></li>
+      <li><a href="#kantotop">KantoTop</a></li>
+    </ul>
+  </nav>
+
+  <!-- sección select -->
+  <section class="container" id="kantodex">
+    <button id="myBtn"><i class="far fa-pause-circle fa-2x"></i></button>
+    <h1> KantoDex </h1>
+    <div class="seleccion">
+      <div class="searchKanto sizeSelect">
+        <h4>Nombre o Número:</h4>
+        <input id="inputPoke" list="listPoke" class="inputPoke" type="text" size="15" name="text">
+        <datalist id="listPoke"></datalist>
+        <button id="btnSearch">GO!</button>
+      </div>
+
+      <div class="typeKanto sizeSelect" id="typeKanto">
+        <h4>Por tipo:</h4>
+        <select id="tipoPoke" class="tipoPoke" name="tipoPoke">
+          <option value="allType">Todos</option>
+          <option value="Grass">Planta</option>
+          <option value="Poison">Veneno</option>
+          <option value="Normal">Normal</option>
+          <option value="Fire">Fuego</option>
+          <option value="Water">Agua</option>
+          <option value="Ice">Hielo</option>
+          <option value="Ground">Tierra</option>
+          <option value="Rock">Roca</option>
+          <option value="Bug">Bicho</option>
+          <option value="Electric">Eléctrico</option>
+          <option value="Fighting">Pelea</option>
+          <option value="Flying">Volador</option>
+          <option value="Psychic">Psíquico</option>
+          <option value="Ghost">Fantasma</option>
+          <option value="Dragon">Dragón</option>
+        </select>
+        <!-- <select class="tipoPoke" name="numDebil">
+            <option value="-">Num Debilidades
+          </select> -->
+      </div>
+      <div class="eggCount sizeSelect">
+        <h4>Distancia eclosión huevo:</h4>
+        <select id="huevoPoke" class="huevoPoke" name="huevoPoke">
+          <option value="allEgg">Todos</option>
+          <option value="2 km">2 km</option>
+          <option value="5 km">5 km</option>
+          <option value="10 km">10 km</option>
+          <option value="Not in Eggs">N/A</option>
+        </select>
+      </div>
+      <div class="candyCount sizeSelect">
+        <h4>Cantidad candy para evolucionar:</h4>
+        <select id="candyPoke" class="candyPoke" name="candyPoke">
+          <option value="allCandy" disabled selected>Cantidad Candy</option>
+          <option value="12">12</option>
+          <option value="25">25</option>
+          <option value="50">50</option>
+          <option value="100">100</option>
+          <option value="400">400</option>
+        </select>
+      </div>
+      <div class="SortKanto sizeSelect">
+        <h4>Ordenar:</h4>
+        <select id="ordenPoke" class="ordenPoke" name="ordenPoke">
+          <option value="order" disabled selected>Ordenar por:</option>
+          <option value="A-Z">A-Z</option>
+          <option value="Z-A">Z-A</option>
+          <option value="idAsc">Id Ascendente</option>
+          <option value="idDesc">Id Descendente</option>
+          <option value="hAsc">Pequeños a Grandes</option>
+          <option value="hDesc">Grandes a Pequeños</option>
+          <option value="wAsc">Livianos a Pesados</option>
+          <option value="wDesc">Pesados a livianos</option>
+        </select>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <div id="wrap" class="wrap"></div>
+
+  <script type="module" src="main.js"></script>
+
+</body>
+
 </html>
 
 
