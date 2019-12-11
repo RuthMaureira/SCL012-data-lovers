@@ -150,7 +150,7 @@ Si quieres revisar la paleta de colores puedes seguir este enlace : [aquí](http
 
 ![paleta](https://i.ibb.co/7jnMmvc/Screenshot-from-2019-12-11-15-32-52.png)
 
-
+___
 
 ## Principios de Diseño Visual
 
