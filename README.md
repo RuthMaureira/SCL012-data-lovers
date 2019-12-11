@@ -250,20 +250,19 @@ Puedes interactuar con el prototipo haciendo click [ aquí ]()
 * Versión  Escritorio : Sin portada , pero con un menu de Inicio mas amplio y completamente desplegado, permite revisar comodamente cada una de las funciones de la app , con una vista de doce tarjetas o mas.
 
 ___ 
-![Figma](https://ibb.co/7zZCTTt)
+![Figma](https://i.ibb.co/W3M5ddv/Screenshot-from-2019-12-11-13-43-00.png)
 
 
 
-![Figma](https://ibb.co/FYDYQ5v)
+![Figma](https://i.ibb.co/3FCFxpX/Screenshot-from-2019-12-11-13-44-15.png)
 
 
 
-![Figma](https://ibb.co/6XkRPgp)
+![Figma](https://i.ibb.co/QD4FNrq/Screenshot-from-2019-12-11-13-54-30.png)
 
 
 
-
-Puedes interactuar con el prototipo haciendo click [ aquí ](https://www.figma.com/proto/VkPf90gJfI9otUSLo6pKTn/pokemon-desktop?node-id=1%3A2&scaling=min-zoom)
+Puedes interactuar con el prototipo haciendo click [aquí](https://www.figma.com/proto/VkPf90gJfI9otUSLo6pKTn/pokemon-desktop?node-id=1%3A2&scaling=min-zoom)
 
 
 
