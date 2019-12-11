@@ -214,18 +214,56 @@ ___
 
 ## Prototipo de alta fidelidad
 
+* Versión para Android : Para esta version se decidio hacer una portada que consiste en el fondo con el Nombre de la app y una pokeball , esto solo con un fin estetico, para hacerla mas llamativa ,ya que la version movil, es mas sencilla.
+___ 
+![Figma](https://ibb.co/CnhP6G6)
 
 
+
+![Figma](https://ibb.co/gz8VbFh)
+
+
+
+
+
+Puedes interactuar con el prototipo haciendo click [ aquí ](https://www.figma.com/proto/g2i9Bvwto2WzKsHI3S1yvN/Pokemon-Android?node-id=2%3A2&scaling=scale-down)
+
+
+* Versión para tablet : Esta version es muy parecida a la version movil, tambien con portada, la diferencia es que al ser un poco mas grande permite ver un poco mas de tarjetas en la pantalla. 
 ___ 
 ![Figma]()
 
 
-![Luhn]()
+![Figma]()
 
 
-* Versión  Escritorio
 
-Puedes interactuar con el prototipo haciendo click[ aquí ]()
+
+
+Puedes interactuar con el prototipo haciendo click [ aquí ]()
+
+
+
+
+
+
+* Versión  Escritorio : Sin portada , pero con un menu de Inicio mas amplio y completamente desplegado, permite revisar comodamente cada una de las funciones de la app , con una vista de doce tarjetas o mas.
+
+___ 
+![Figma](https://ibb.co/7zZCTTt)
+
+
+
+![Figma](https://ibb.co/FYDYQ5v)
+
+
+
+![Figma](https://ibb.co/6XkRPgp)
+
+
+
+
+Puedes interactuar con el prototipo haciendo click [ aquí ](https://www.figma.com/proto/VkPf90gJfI9otUSLo6pKTn/pokemon-desktop?node-id=1%3A2&scaling=min-zoom)
 
 
 
