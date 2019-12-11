@@ -212,24 +212,29 @@ Para conocer las fuentes elegidas, puedes revisar el siguiente enlace: [aquí](h
 
 ___
 
-## Prototipo de alta fidelidad
+## Prototipo de alta fidelidad 
 
-* Versión para Android : Para esta version se decidio hacer una portada que consiste en el fondo con el Nombre de la app y una pokeball , esto solo con un fin estetico, para hacerla mas llamativa ,ya que la version movil, es mas sencilla.
+
+
+### Versión para Android : Para esta version se decidio hacer una portada que consiste en el fondo con el Nombre de la app y una pokeball , esto solo con un fin estetico, para hacerla mas llamativa ,ya que la version movil, es mas sencilla.
+
+
 ___ 
-![Figma](https://ibb.co/CnhP6G6)
-
-
-
-![Figma](https://ibb.co/gz8VbFh)
+![Figma](https://i.ibb.co/D75rY2Y/Screenshot-from-2019-12-11-12-23-02.png)
 
 
 
 
+![Figma](https://i.ibb.co/4PLdwg3/Screenshot-from-2019-12-11-12-23-52.png)
 
-Puedes interactuar con el prototipo haciendo click [ aquí ](https://www.figma.com/proto/g2i9Bvwto2WzKsHI3S1yvN/Pokemon-Android?node-id=2%3A2&scaling=scale-down)
 
 
-* Versión para tablet : Esta version es muy parecida a la version movil, tambien con portada, la diferencia es que al ser un poco mas grande permite ver un poco mas de tarjetas en la pantalla. 
+
+
+Puedes interactuar con el prototipo haciendo click [aquí](https://www.figma.com/proto/g2i9Bvwto2WzKsHI3S1yvN/Pokemon-Android?node-id=2%3A2&scaling=scale-down)
+
+
+### Versión para tablet : Esta version es muy parecida a la version movil, tambien con portada, la diferencia es que al ser un poco mas grande permite ver un poco mas de tarjetas en la pantalla. 
 ___ 
 ![Figma]()
 
@@ -240,14 +245,14 @@ ___
 
 
 
-Puedes interactuar con el prototipo haciendo click [ aquí ]()
+Puedes interactuar con el prototipo haciendo click [aquí]()
 
 
 
 
 
 
-* Versión  Escritorio : Sin portada , pero con un menu de Inicio mas amplio y completamente desplegado, permite revisar comodamente cada una de las funciones de la app , con una vista de doce tarjetas o mas.
+### Versión  Escritorio : Sin portada , pero con un menu de Inicio mas amplio y completamente desplegado, permite revisar comodamente cada una de las funciones de la app , con una vista completa de doce tarjetas o mas.
 
 ___ 
 ![Figma](https://i.ibb.co/W3M5ddv/Screenshot-from-2019-12-11-13-43-00.png)
