@@ -142,7 +142,7 @@ Ocupando el azul como color primario y el amarillo como color secundario, solo p
 Esta eleccion se dio en forma natural, debido a que el amarillo como color dominante, satura y quita la atencion de las Imagenes, sin embargo en pequeñas dosis puede dar la sensacion de energia y positividad.
 Mientras que el azul, el unico color primario del espectro frio, si bien es llamativo, ayuda a destacar sin agotar la vision, da una sensacion de calma y las letras en blanco son mas legibles en el.
 
- <img src="https://i.ibb.co/ZzpKJ83/Screenshot-from-2019-12-11-15-17-21.png"alt="logo" width="230" height="400" align="center"> 
+ <img src="https://i.ibb.co/ZzpKJ83/Screenshot-from-2019-12-11-15-17-21.png"  alt="logo"  align="center"  width="230" height="400"> 
 
 
 
