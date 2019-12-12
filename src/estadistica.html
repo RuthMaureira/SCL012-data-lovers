@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>KantoDex</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/ball.png">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Roboto:400,700&display=swap" rel="stylesheet">
+  <!-- fontawesome icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Background páginas -->
+  <video autoplay muted loop id="myVideo">
+    <source src="images/bg_blue.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+
+
+  <!-- navbar navegación -->
+  <nav class="navigation" id="navigation">
+    <a href="" class="logo"><img src="images/logo.png" alt="logo" class="navigation__img"></a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="home.html" id="inicio">Inicio</a></li>
+      <li><a href="index.html" id="link_Kantodex">KantoDex</a></li>
+      <li><a href="estadistica.html" id="link_kantotop">KantoTop</a></li>
+    </ul>
+  </nav>
+
+
+
+  <section id="kantotop" class="kantotop">
+    <button id="myBtn"><i class="far fa-pause-circle fa-2x"></i></button>
+
+    <h1>Top Pokemon</h1>
+    <div class="seleccion2">
+      <a href="#chart_wrap" class="sizeSelect2 borde" id="legend">
+        <h4 class="separacion">Pokemones</h4>
+        <h4>Legendarios</h4>
+      </a>
+      <a href="#chart_wrap" class="sizeSelect2 borde" id="masf">
+        <h4 class="separacion">Pokemones</h4>
+        <h4>Más frecuentes</h4>
+      </a>
+      <a href="#chart_wrap" class="sizeSelect2 borde" id="menosf">
+        <h4 class="separacion">Pokemones</h4>
+        <h4>Menos frecuentes</h4>
+      </a>
+
+    </div>
+
+    <div id="chart_wrap">
+      <div id="barchart2"></div>
+      <div id="barchart3"></div>
+    </div>
+
+    <div id="barchart1"></div>
+
+    <footer id="contacto" class="oscuro">
+      <a href="https://www.facebook.com/PokemonGO/" target="_blank"><i class="fab fa-facebook-square fa-4x"></i></a>
+      <a href="https://twitter.com/pokemongoapp" target="_blank"><i class="fab fa-twitter-square fa-4x"></i></a>
+      <a href="https://www.instagram.com/pokemongoapp" target="_blank"><i class="fab fa-instagram fa-4x"></i></a>
+      <a href="https://dondepokemongo.es/blog.html" target="_blank"><i class="fab fa-blogger fa-4x"></i></a>
+      <p>M&V 2019. Todos los derechos reservados.</p>
+    </footer>
+
+
+
+  </section>
+
+
+
+
+  <script type="module" src="app.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+
+</body>
+
+</html>

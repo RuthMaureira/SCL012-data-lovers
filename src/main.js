@@ -19,6 +19,54 @@ function videoAction() {
 
 /*---------------------------------------------------------------------------------*/
 
+/*Ingreso Mobile */
+// let home = document.getElementById("home");
+// let	kantodex = document.getElementById("kantodex");
+// let ingreso = document.getElementById("ingreso");
+// let	navigation = document.getElementById("navigation");
+// let wrap = document.getElementById("wrap");
+// let kantotop = document.getElementById("kantotop");
+// let link_Kantodex = document.getElementById("link_Kantodex");
+// let link_Kantotop = document.getElementById("link_Kantotop");
+//
+// ingreso.addEventListener('click', cambio1);
+// link_Kantodex.addEventListener('click', cambio1);
+//
+// function cambio1() {
+//   home.style.display = "none";
+//   kantodex.style.display = "block";
+//   navigation.style.display = "block";
+//   wrap.style.display= "flex";
+//   kantotop.style.display = "none";
+// }
+//
+// let inicio = document.getElementById("inicio");
+// inicio.addEventListener('click', cambio2);
+//
+// function cambio2() {
+//   home.style.display = "block";
+//   kantodex.style.display = "none";
+//   navigation.style.display = "none";
+//   wrap.style.display= "none";
+//   kantotop.style.display = "none";
+// }
+//
+// link_kantotop.addEventListener('click', cambio3);
+//
+// function cambio3() {
+//   home.style.display = "none";
+//   kantodex.style.display = "none";
+//   navigation.style.display = "block";
+//   wrap.style.display= "none";
+//   kantotop.style.display = "block";
+// }
+
+
+
+
+
+
+
 /*Data a utilizar*/
 import POKEMON from './data/pokemon/pokemon.js'
 
@@ -38,13 +86,13 @@ console.log(Object.keys(POKEMON[0]));
 
 console.log(POKEMON[0].candy_count);
 console.log(typeof POKEMON[0].candy_count);
-console.log(POKEMON.map(poke => poke.candy_count));
+console.log(POKEMON.map(poke => poke.avg_spawns));
 
 import {
   resultType
 } from './data.js'; // Importar la función qe está en data.js
 console.log(resultType(POKEMON, 'Grass'));
-console.log(resultType(POKEMON, 'Poison'));
+console.log(resultType(POKEMON, 'Ghost'));
 console.log(resultType(POKEMON, 'Fire').length);
 
 import {
@@ -224,8 +272,11 @@ btnSearch.addEventListener('click', buscar);
 function buscar(){
   console.log(inputPoke.value);
 
-  if(inputPoke.value === ''){
-    alert("Recuerde ingresar información (nombre/número Pókemon)");
+  /* seleccionar el elegido */
+  let seleccion = POKEMON.filter(poke => poke.name.includes(inputPoke.value));
+
+  if(inputPoke.value === '' || Object.keys(seleccion).length === 0){
+    alert("Recuerde ingresar información válida (nombre/número Pókemon)");
     start();
   }
 
@@ -233,9 +284,6 @@ function buscar(){
 
     /* pedir que vacie wrap en html */
     document.getElementById("wrap").innerHTML = "";
-    /* seleccionar el elegido */
-    let seleccion = POKEMON.filter(poke => poke.name.includes(inputPoke.value));
-    console.log(seleccion);
 
     /* muestre en wrap tarjeta */
     let tarjeta = createCard(seleccion[0]);
@@ -455,9 +503,3 @@ selectOrder.addEventListener('change', () => {
     }
   }
 });
-
-/*---------------------------------------------------------------------------------*/
-
-
-
-/*---------------------------------------------------------------------------------*/

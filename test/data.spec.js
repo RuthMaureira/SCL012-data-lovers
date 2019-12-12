@@ -1,13 +1,27 @@
 // importamos la función `example`
-import { example } from "../src/data";
+// import { example } from "../src/data";
+//
+// describe('example', () => {
+//
+//   it('debería ser una función', () => {
+//     expect(typeof example).toBe('function');
+//   });
+//
+//   describe('example', () => {
+//     // escribe aquí tu test
+//   });
+// });
 
-describe('example', () => {
+import { resultType } from "../src/data";
+
+describe('resultType', () => {
 
   it('debería ser una función', () => {
-    expect(typeof example).toBe('function');
+    expect(typeof resultType).toBe('function');
   });
 
-  describe('example', () => {
+  describe('resultType', () => {
     // escribe aquí tu test
+    expect(resultType(POKEMON, 'Ghost')).toBe(Array(3));
   });
 });

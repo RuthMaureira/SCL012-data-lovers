@@ -24,7 +24,7 @@ export let resultEgg = (dataPoke, eggKanto) => {
 /* Filtrar por candy */
 
 export let resultCandy = (dataPoke, candyKanto) => {
-    return dataPoke.filter(poke => poke.candy_count == candyKanto);
+  return dataPoke.filter(poke => poke.candy_count == candyKanto);
 };
 
 
@@ -77,5 +77,13 @@ export let orderPoke = (dataPoke, sortBy, sortOrder) => {
   } else if (sortBy == "height" && sortOrder == "desc") {
     return dataPoke.sort((a, b) => (parseFloat(b.height) - parseFloat(a.height)));
   }
+
+  /*Ordenar por avg_spawns */
+  else if (sortBy == "spawn" && sortOrder == "asc") {
+    return dataPoke.sort((a, b) => (parseFloat(a.avg_spawns) - parseFloat(b.avg_spawns)));
+  } else if (sortBy == "spawn" && sortOrder == "desc") {
+    return dataPoke.sort((a, b) => (parseFloat(b.avg_spawns) - parseFloat(a.avg_spawns)));
+  }
+
 
 };
