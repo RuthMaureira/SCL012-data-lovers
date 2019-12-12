@@ -28,6 +28,7 @@
 ***
 ## Introducción
 
+KantoDex , es una guia practica 
  
 
 
@@ -37,13 +38,15 @@
 
  
 ##  Tipo de usuario
-Usuario frecuente de la aplicacion Pokemon Go 
+
+
+Usuario frecuente de la aplicacion Pokemon Go , con conocimientos sobre los contenidos de la app , 
 
 
 
 ## Objetivo principal 
 
-
+Definimos el producto a partir del usuario que busca tener un  acceso rápido y claro,tanto como informacion basica sobre los pokemon, sendo 
 
 
 ## Planificación
@@ -146,11 +149,29 @@ Mientras que el azul, el unico color primario del espectro frio, si bien es llam
 
 
 
-Si quieres revisar la paleta de colores puedes seguir este enlace : [aquí](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=185ee3&secondary.color=ffcc03)
+####Si quieres revisar la paleta de colores puedes seguir este enlace:  
+[aquí](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=185ee3&secondary.color=ffcc03)
+
 
 ![paleta](https://i.ibb.co/7jnMmvc/Screenshot-from-2019-12-11-15-32-52.png)
 
+
+
+Para el Background de la aplicacion elegimos un video que simula una vista del universo, con la opcion de pausar, para quienes les moleste el movimiento continuo, y tuvo muy buena aceptacion por parte de los usuarios.
+Esta eleccion se basa en el detalle del fondo de las letras del logo de _Pokemon Go_, que es la imagen de un Universo lleno de estrellas.
+Con esto le dimos una identidad especifica de _Pokemon Go_.
+Tanto la paleta de colores elegida como el Background de Universo, fueron seleccionados para que de manera implicita demuestre que es una aplicacion relacionada con juego, sin la necesidad de explicar a traves de texto e instrucciones su relacion con la app _Pokemon Go_ .
+ 
+ 
+![Go](https://i.ibb.co/n7SDH8G/pokemon-go-large-sized-png-logo-2.png)
+
+
+
+![video](https://i.ibb.co/kQ67vV9/IMG-20191127-WA0007-1.jpg)
+Imagen del video seleccionado para background
+
 ___
+
 
 ## Principios de Diseño Visual
 
@@ -197,9 +218,11 @@ Las palabras más importantes muestran un mayor impacto, por lo que los usuarios
 
 La tipografia se eligio desde google fonts de acuerdo a 2 objetivos: 
 
->"Que sea moderna": Porque el diseño de la app , si bien esta enfocado en un grupo etareo bastante amplio, la aplicacion es juvenil y animada , por ello , requiere una letra que coincida , con la Imagen que se desea mostrar.
+####"Que sea moderna": 
+Porque el diseño de la app , si bien esta enfocado en un grupo etareo bastante amplio, la aplicacion es juvenil y animada , por ello , requiere una letra que coincida , con la Imagen que se desea mostrar.
 
->"Que sea legible": Porque al contener bastante informacion ( especificamente en las tarjetas ) distribuida en lineas cercanas unas de otras , requiere una letra que se vea ordenada , sin quiebres para mayor fluidez en la lectura.
+####"Que sea legible": 
+Porque al contener bastante informacion ( especificamente en las tarjetas ) distribuida en lineas cercanas unas de otras , requiere una letra que se vea ordenada , sin quiebres para mayor fluidez en la lectura.
 
 por ello la eleccion fue: 
 
@@ -212,7 +235,7 @@ por ello la eleccion fue:
 ![fuentes](https://i.ibb.co/b24vVbv/Screenshot-from-2019-12-10-12-51-06-1.png)
 
 
-Para conocer las fuentes elegidas, puedes revisar el siguiente enlace: [aquí](https://fonts.google.com/selection?selection.family=Open+Sans|Roboto)
+####Para conocer las fuentes elegidas, puedes revisar el siguiente enlace: [aquí](https://fonts.google.com/selection?selection.family=Open+Sans|Roboto)
 
 
 
