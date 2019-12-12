@@ -14,6 +14,8 @@
 
 import { resultType } from "../src/data";
 
+let FRUI
+
 describe('resultType', () => {
 
   it('debería ser una función', () => {
@@ -22,6 +24,6 @@ describe('resultType', () => {
 
   describe('resultType', () => {
     // escribe aquí tu test
-    expect(resultType(POKEMON, 'Ghost')).toBe(Array(3));
+    expect(resultType(FRUIT, 'pera')).toBe(Array(3));
   });
 });

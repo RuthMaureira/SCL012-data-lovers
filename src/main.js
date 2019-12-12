@@ -18,54 +18,24 @@ function videoAction() {
 }
 
 /*---------------------------------------------------------------------------------*/
+let home = document.getElementById("home");
+let	kantodex = document.getElementById("kantodex");
+let ingreso = document.getElementById("ingreso");
+let	navigation = document.getElementById("navigation");
+let wrap = document.getElementById("wrap");
+let contacto = document.getElementById("contacto");
+ingreso.addEventListener('click', cambio1);
 
-/*Ingreso Mobile */
-// let home = document.getElementById("home");
-// let	kantodex = document.getElementById("kantodex");
-// let ingreso = document.getElementById("ingreso");
-// let	navigation = document.getElementById("navigation");
-// let wrap = document.getElementById("wrap");
-// let kantotop = document.getElementById("kantotop");
-// let link_Kantodex = document.getElementById("link_Kantodex");
-// let link_Kantotop = document.getElementById("link_Kantotop");
-//
-// ingreso.addEventListener('click', cambio1);
-// link_Kantodex.addEventListener('click', cambio1);
-//
-// function cambio1() {
-//   home.style.display = "none";
-//   kantodex.style.display = "block";
-//   navigation.style.display = "block";
-//   wrap.style.display= "flex";
-//   kantotop.style.display = "none";
-// }
-//
-// let inicio = document.getElementById("inicio");
-// inicio.addEventListener('click', cambio2);
-//
-// function cambio2() {
-//   home.style.display = "block";
-//   kantodex.style.display = "none";
-//   navigation.style.display = "none";
-//   wrap.style.display= "none";
-//   kantotop.style.display = "none";
-// }
-//
-// link_kantotop.addEventListener('click', cambio3);
-//
-// function cambio3() {
-//   home.style.display = "none";
-//   kantodex.style.display = "none";
-//   navigation.style.display = "block";
-//   wrap.style.display= "none";
-//   kantotop.style.display = "block";
-// }
+let ingreso2 = document.getElementById("link_Kantodex");
+ingreso2.addEventListener('click', cambio1);
 
-
-
-
-
-
+function cambio1() {
+  home.style.display = "none";
+  kantodex.style.display = "block";
+  navigation.style.display = "block";
+  wrap.style.display= "flex";
+  contacto.style.display = "block";
+}
 
 /*Data a utilizar*/
 import POKEMON from './data/pokemon/pokemon.js'
@@ -277,6 +247,7 @@ function buscar(){
 
   if(inputPoke.value === '' || Object.keys(seleccion).length === 0){
     alert("Recuerde ingresar información válida (nombre/número Pókemon)");
+    inputPoke.value ='';
     start();
   }
 
