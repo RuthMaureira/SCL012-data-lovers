@@ -1,9 +1,9 @@
-# Kanto-dex
+# KantoDex
 
 
 
 
-![inicio](foto banner)
+![inicio](https://i.ibb.co/nft304x/Screenshot-from-2019-12-12-13-20-27.png)
 
  
 
@@ -28,11 +28,21 @@
 ***
 ## Introducción
 
-KantoDex , es una guia practica 
- 
+_KantoDex_ es una guia practica para jugadores de _Pokemon Go_ , que necesiten informacion sobre los 151 Pokemon de la region de _Kanto_ .
+En ella se puede encontrar datos de cada Pokemon , ordenarlos segun su tipo , averiguar en que huevo es mas probable que aparezca un pokemon especifico, entre muchas otras funciones.
+
+Su nombre es la union de las palabras _Kanto_ que es donde se encuentra _Pueblo Paleta_ , donde proviene el protagonista de la serie, Ash Ketchum. Ademas que la Data utilizada esta app es especificamente de los Pokemon de Kanto.
+Y _Dex_ proviene de  _Poke-dex_ , una enciclopedia virtual, que Ash utilizaba constantemente en la serie para averiguar informacion cuando visualizaba o atrapaba un nuevo Pokemon.
+
+Con esta app, el usuario podra acceder a informacion de forma simple sin la necesidad de Instrucciones, para complementar y mejorar su rendimiento en el juego y  convertirse en todo un Maestro Pokemon. 
 
 
 ## Definición del Producto
+
+
+
+
+
 
 
 
@@ -47,7 +57,7 @@ Usuario frecuente de la aplicacion Pokemon Go , con conocimientos sobre los cont
 ## Objetivo principal 
 
 Definimos el producto a partir del usuario que busca tener un  acceso rápido y claro,tanto como informacion basica sobre los pokemon, sendo 
-
+Permitir al usuario encontrar información útil para usar en el juego Pokémon GO de manera fácil e intuitiva mediante diferentes categorías, filtros y/o búsqueda por nombre.
 
 ## Planificación
 
@@ -145,13 +155,11 @@ Ocupando el azul como color primario y el amarillo como color secundario, solo p
 Esta eleccion se dio en forma natural, debido a que el amarillo como color dominante, satura y quita la atencion de las Imagenes, sin embargo en pequeñas dosis puede dar la sensacion de energia y positividad.
 Mientras que el azul, el unico color primario del espectro frio, si bien es llamativo, ayuda a destacar sin agotar la vision, da una sensacion de calma y las letras en blanco son mas legibles en el.
 
- <img src="https://i.ibb.co/ZzpKJ83/Screenshot-from-2019-12-11-15-17-21.png"  alt="logo"    width="700" height="400"> 
+ <img src="https://i.ibb.co/ZzpKJ83/Screenshot-from-2019-12-11-15-17-21.png"  alt="logo"    width="800" height="400"> 
 
 
 
-#### Si quieres revisar la paleta de colores puedes seguir este enlace:  
-
-[aquí](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=185ee3&secondary.color=ffcc03)
+Si quieres revisar la paleta de colores puedes seguir este enlace: [aquí](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=185ee3&secondary.color=ffcc03)
 
 
 ![paleta](https://i.ibb.co/7jnMmvc/Screenshot-from-2019-12-11-15-32-52.png)
@@ -465,10 +473,10 @@ Si esta web existiera, la ocuparian, ya que consideran que tiene caracteristicas
 
 
 
+CAMBIOS PROTOITPO , A APLICACION FINAL.
 
 
-
-
+- se quita boton Inicio del menu ; ya que redundante y se puede volver AL INCIIO A TRAVES DE OTROS BOTONES
 
  
 
