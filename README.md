@@ -163,7 +163,7 @@ Con esto le dimos una identidad especifica de _Pokemon Go_.
 Tanto la paleta de colores elegida como el Background de Universo, fueron seleccionados para que de manera implicita demuestre que es una aplicacion relacionada con juego, sin la necesidad de explicar a traves de texto e instrucciones su relacion con la app _Pokemon Go_ .
  
  
-![Go](https://i.ibb.co/n7SDH8G/pokemon-go-large-sized-png-logo-2.png)
+![Go](https://i.ibb.co/8bQpjGm/pokemon-go-large-sized-png-logo-2-1.png)
 
 
 
