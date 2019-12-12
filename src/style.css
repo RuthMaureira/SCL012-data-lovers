@@ -36,6 +36,35 @@ body {
   display:block;
 }
 
+.inputPoke, #btnSearch, .tipoPoke, .huevoPoke, .candyPoke, .ordenPoke  {
+  height: 1.6rem;
+  width: 8rem;
+  font-weight: bolder;
+
+}
+
+#btnSearch {
+  width: 3rem;
+  margin-left: 0.8rem;
+}
+
+.searchKanto h4 {
+  padding-left: 5.4rem;
+}
+
+.typeKanto h4 {
+  padding-left: 0.85rem;
+}
+
+.eggCount h4, .candyCount h4, .sortKanto h4  {
+  padding-left: 0.9rem;
+}
+
+
+
+
+
+
 .poke {
   width: 25rem;
 }
@@ -433,6 +462,7 @@ a {
 .seleccion h4 {
   margin: 1rem 1rem;
   font-size: 1.2rem;
+  text-align: left;
 }
 
 .searchKanto {
