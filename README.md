@@ -51,7 +51,7 @@ Usuario frecuente de la aplicacion Pokemon Go
 
 
 
--Tareas en `Trello` Puedes revisarlo haciendo click [aquí]()
+-Tareas en `Trello` Puedes revisarlo haciendo click [aquí](https://trello.com/b/TLe2McyO/datalovers)
 
 
 ___
@@ -136,14 +136,21 @@ ___
 
 ## Paleta de colores
 
+Para elegir la paleta de colores del prototipo, nos inspiramos en los colores del Logo de _Pokemon_, en el cual domina el amarillo por sobre el azul.
+Sin embargo, nosotras usamos estos los mismos tonos, pero al reves.
+Ocupando el azul como color primario y el amarillo como color secundario, solo para algunos minimos detalles. 
+Esta eleccion se dio en forma natural, debido a que el amarillo como color dominante, satura y quita la atencion de las Imagenes, sin embargo en pequeñas dosis puede dar la sensacion de energia y positividad.
+Mientras que el azul, el unico color primario del espectro frio, si bien es llamativo, ayuda a destacar sin agotar la vision, da una sensacion de calma y las letras en blanco son mas legibles en el.
+
+ <img src="https://i.ibb.co/ZzpKJ83/Screenshot-from-2019-12-11-15-17-21.png"  alt="logo"    width="550" height="400"> 
 
 
 
-Si quieres revisar la paleta de colores puedes seguir este enlace : [aquí]()
+Si quieres revisar la paleta de colores puedes seguir este enlace : [aquí](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=185ee3&secondary.color=ffcc03)
 
-![sketch]()
-.
+![paleta](https://i.ibb.co/7jnMmvc/Screenshot-from-2019-12-11-15-32-52.png)
 
+___
 
 ## Principios de Diseño Visual
 
@@ -212,20 +219,62 @@ Para conocer las fuentes elegidas, puedes revisar el siguiente enlace: [aquí](h
 
 ___
 
-## Prototipo de alta fidelidad
+## Prototipo de alta fidelidad 
 
 
 
+Versión para Android: Para esta version se decidio hacer una portada, que consisteen un fondo con estrellas, el Nombre de la app y una pokeball , esto solo con un fin estetico, para hacerla mas llamativa ,ya que la version movil es mas sencilla.
+
+
+___ 
+![Figma](https://i.ibb.co/D75rY2Y/Screenshot-from-2019-12-11-12-23-02.png)
+
+
+
+
+![Figma](https://i.ibb.co/4PLdwg3/Screenshot-from-2019-12-11-12-23-52.png)
+
+
+
+
+
+Puedes interactuar con el prototipo haciendo click [aquí](https://www.figma.com/proto/g2i9Bvwto2WzKsHI3S1yvN/Pokemon-Android?node-id=2%3A2&scaling=scale-down)
+
+
+Versión para tablet: Esta version es muy parecida a la version movil, tambien con portada, la diferencia es que al ser un poco mas grande permite ver un poco mas de tarjetas en la pantalla. 
 ___ 
 ![Figma]()
 
 
-![Luhn]()
+![Figma]()
 
 
-* Versión  Escritorio
 
-Puedes interactuar con el prototipo haciendo click[ aquí ]()
+
+
+Puedes interactuar con el prototipo haciendo click [aquí]()
+
+
+
+
+
+
+Versión  Escritorio: Sin portada , pero con un menu de Inicio mas amplio y completamente desplegado, permite revisar comodamente cada una de las funciones de la app , con una vista completa de doce tarjetas o mas.
+
+___ 
+![Figma](https://i.ibb.co/W3M5ddv/Screenshot-from-2019-12-11-13-43-00.png)
+
+
+
+![Figma](https://i.ibb.co/3FCFxpX/Screenshot-from-2019-12-11-13-44-15.png)
+
+
+
+![Figma](https://i.ibb.co/QD4FNrq/Screenshot-from-2019-12-11-13-54-30.png)
+
+
+
+Puedes interactuar con el prototipo haciendo click [aquí](https://www.figma.com/proto/VkPf90gJfI9otUSLo6pKTn/pokemon-desktop?node-id=1%3A2&scaling=min-zoom)
 
 
 
