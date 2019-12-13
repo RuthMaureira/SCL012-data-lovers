@@ -153,10 +153,8 @@ Puedes visitar su sitio web  [aquí](https://www.deckmachine.cl/categoria-produc
 
 Aca conocimos verdaderos Fans Pokemon, usuarios asiduos de la aplicacion, que intercambian sus conocimientos, y que muy entusiasmados nos entregaron su opinion respecto a los problemas más frecuentes con _Pokemon Go_ y como creen que mejoraria su experiencia con nuestra aplicacion en su desempeño al jugar.
 
-![imagen](https://i.ibb.co/mhm9vnM/IMG-20191212-WA0006-1.jpg)
-![imagen](https://i.ibb.co/1GKC0ng/IMG-20191212-WA0008-1.jpg)
-![imagen](https://i.ibb.co/C8dXsRh/IMG-20191212-WA0007-1.jpg)
-![imagen](https://i.ibb.co/3zgx8nW/71028325-476387566419912-530097087149244416-o-1.jpg)
+<img src="https://i.ibb.co/mhm9vnM/IMG-20191212-WA0006-1.jpg" alt="img1"  width="400" height="200"><img src="https://i.ibb.co/1GKC0ng/IMG-20191212-WA0008-1.jpg" alt="img2"  width="400" height="200">
+<img src="https://i.ibb.co/C8dXsRh/IMG-20191212-WA0007-1.jpg" alt="img3"  width="400" height="200"><img src="https://i.ibb.co/3zgx8nW/71028325-476387566419912-530097087149244416-o-1.jpg" alt="img4"  width="400" height="200">
 
 Al presentarles nuestro sketch y como pensaban
 
@@ -181,7 +179,7 @@ Ocupando el azul como color primario y el amarillo como color secundario, solo p
 Esta eleccion se dio en forma natural, debido a que el amarillo como color dominante, satura y quita la atencion de las Imagenes, sin embargo en pequeñas dosis puede dar la sensacion de energia y positividad.
 Mientras que el azul, el unico color primario del espectro frio, si bien es llamativo, ayuda a destacar sin agotar la vision, da una sensacion de calma y las letras en blanco son mas legibles en el.
 
- <img src="https://i.ibb.co/ZzpKJ83/Screenshot-from-2019-12-11-15-17-21.png"  alt="logo"    width="500" height="200"> 
+ <img src="https://i.ibb.co/ZzpKJ83/Screenshot-from-2019-12-11-15-17-21.png"  alt="logo"    width="400" height="200"> 
 
 
 
