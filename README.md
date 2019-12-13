@@ -22,8 +22,8 @@
 * [Investigacion y Desarrollo](#Investigacion-y-Desarrollo)
 * [Prototipo de alta fidelidad](#Prototipo-de-alta-fidelidad)
 * [Testeo y usabilidad](#Testeo-y-usabilidad)
-* [Conclusiones y posibles soluciones](#Conclusiones-y-posibles-soluciones)
-
+* [Analisis y conclusion](#Analisis-y-conclusion)
+* [Cambios del prototipo e interfaz final](#Cambios-del-prototipo-e-interfaz-final)
 
 ***
 
@@ -392,6 +392,7 @@ Para ver la usabilidad del ultimo prototipo, se realizo un testeo a la versión 
 * Comprobar si el usuario sabe donde esta posicionado 
 * Comprobar si los principios de Diseño aplicados cumplen su objetivo (estetica , visualizacion, legibilidad)
 
+
 Para ver si se cumplen estos objetivos, haremos uso de la Evaluacion heuristica en su version acotada.
 
 
@@ -454,7 +455,7 @@ llevando a cabo funciones de teatro.
 
 >"Me gusta el fondo , es llamativo y original "
 
->""
+>"Me gustaria que se enlazara con la aplicacion _Pokemon Go_ , para asi volver una vez que encontre la informacion que requeria y seguir jugando"
 
 
 
@@ -466,11 +467,11 @@ llevando a cabo funciones de teatro.
 * Actividad : Estudiante de Diseño Grafico. 
 
 
->"".
+>"Es bueno que este todo en una pagina, da la impresion que es simple y sencilla de usar".
 
->"". 
+>"Los botones de arriba, no les encuentro mucha funcion ". 
 
->""
+>"Pueden agregar informacion sobre Pokemon Legendarios, o Pokemon mas dificiles de encontrar? eso me interesaria"
 
 
 
@@ -511,9 +512,9 @@ Para ver el video del ultimo usuario probando el prototipo . Ver en este link [a
 ## Conclusiones y posibles Soluciones
 
 
-![Interfaz final]()
+![Interfaz final](https://i.ibb.co/5rL5XD2/desktop3.png)
 
-Uno de los cambios que se realizaron en la aplicacion final 
+
 
 
 
@@ -542,7 +543,7 @@ Se evaluo si al pasar cierto tiempo, después de la primera interacción, el usu
 ### Errores
 
 Se debe reconocer la cantidad y gravedad de errores que cometa el usuario al interactuar con la aplicación, de igual manera se analiza la facilidad con la que se pueden enmendar los errores cometidos durante la prueba.
-Los errores estan mencionados con detalle mas abajo, en la parte de  _cambios del prototipo y concluciones finales_ .
+Los errores estan mencionados con detalle mas abajo, en la parte de  _cambios del prototipo e Interfaz final_ .
 
  
 ### Satisfacción
@@ -555,22 +556,35 @@ Si esta web existiera, la ocuparian, ya que consideran que tiene caracteristicas
 
 
 
-## Cambios del prototipo a interfaz final 
+## Cambios del prototipo e interfaz final 
+
 
 
 * Se quita boton _Inicio_ del menu principal:
-  Porque era redundante , y no era util , es posible volver al inicio a traves de otras opciones.
+  Porque era redundante, y no era util , es posible volver al inicio a traves de otras opciones.
+
+
+![correccion](https://i.ibb.co/2n243G5/image.png)
+
+
+
+
 
 * Se agrega contenido a opcion _Kantotop_ :
   En un comienzo solo contendria infografias estadisticas, respecto a _Pokemon Go_ , pero finalmente se pudo concretar una nueva historia de usuario sugerida , respecto a calcular frecuencia de apariciones en grafico de barras , y un menu dentro de esa seccion , donde se puede observar los Pokemon Legendarios.
+
+
+![correccion2](https://i.ibb.co/FKY9KfB/desktop2.png)
+
 
 * Se disminuye la cantidad de texto : 
 En un comienzo nuestro sketch poseia Introduccion e Instrucciones, pero en los feedbacks , nos dimos cuenta que era texto que no cumpliria su funcion, porque nuestro usuario, sabe como funciona _Pokemon Go_ y tiene claro sus objetivos al usar otra aplicacion que complemente la informacion del juego.
 En nuestra segunda version, nuestro prototipo de alta fidelidad, ya no tenia los bloques de texto de antes, pero los nombres de los botones eran muy largos, asi que los redujimos aun mas, sin perder la identidad ( en los select se complementa el resto de la informacion) y de paso nos ayudo a mejorar la alineacion de los contenedores de menu.
 
+![correccion3](https://i.ibb.co/6DfFXGS/desktop1-2.png)
 
-
-Podemos concluir que con esta experiencia de investigacion y desarrollo, esperamos que nuestro producto ayude a mejorar la estrategia del usuario al manejar la información más requerida o relevante para ellos, además de ahorrar tiempo al no tener que analizar todos los datos y retenerlos por ellos mismos.Nuestra meta es que el usuario obtenga la información de la app a manera de guia, al jugar _Pokémon GO_.
+Podemos concluir que con esta experiencia de investigacion y desarrollo, esperamos que nuestro producto ayude al usuario mejorar su estrategia de juego al manejar la información más requerida o relevante para ellos, además de ahorrar tiempo al no tener que analizar todos los datos y retenerlos por ellos mismos.
+Nuestra meta es que el usuario obtenga la información de la app a manera de guia, al jugar _Pokémon GO_.
 
 
 
