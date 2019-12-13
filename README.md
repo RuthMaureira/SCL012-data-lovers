@@ -398,36 +398,44 @@ Para ver si se cumplen estos objetivos, haremos uso de la Evaluacion heuristica 
 ## Test de usabilidad
 
 
-Contactamos nuevamente a 
+Contactamos nuevamente a los chicos que conocimos en _Deckmachine_ , los cuales tuvieron la mejor disponibilidad , debido a que les entusiasmaba la idea de una aplicacion que complementara su juego en _Pokemon Go_ .
 
 
 
 #### Usuario 1
 
-
+* Nombre : Camila Riquelme
+* Edad : 26 años 
+* Actividad:Titulada en produccion de eventos , Trabaja los fines de semana en el Centro Cultural Gabriela Mistral como encargada de publico y 
+llevando a cabo funciones de teatro.
 
 
 #### Observaciones del usuario
 
->" "
+>"Los colores estan de acuerdo al espiritu Pokemon , me gusta eso , porque lo siento familiar"
 
->" "
+>"Me gustaria que existiese la posibilidad de observar las imagenes mas grandes aun, para ver las caracterristicas de cada Pokemon"
 
->" "
+>"Siento que el boton de arriba (inicio del menu) , no cumple ninguna funcion"
 
 
 
 #### Usuario 2
 
-.
+
+* Nombre : Felipe Solis 
+* Edad : 26 años 
+* Actividad: Profesor de Matematicas
+
+
 
 #### Observaciones del usuario
 
->" "
+>"Es facil de entender como funciona , no me hizo falta instrucciones"
 
->" "
+>"Podria incluir informacion sobre la frecuencia de aparicion de algunos Pokemon, seria muy util "
 
->" " 
+>"Pareciera que todos los botones de arriba ( menu header) me llevan al inicio " 
 
 
 
@@ -435,21 +443,27 @@ Contactamos nuevamente a
 #### Usuario 3
 
 
+* Nombre : Javier Chelmes
+* Edad : 17 años
+* Actividad : Estudiante de Segundo Medio
+
 
 #### Observaciones del usuario
 
->" ".
+>"Le agregaria la opcion de ordenar Pokemon segun tamaño y peso , o almenos un lugar donde pueda encontrar esta informacion "
 
->"  ".
+>"Me gusta el fondo , es llamativo y original "
 
->"  ".
+>""
 
 
 
 
 #### Usuario 4
 
-.
+* Nombre : Nicolas Valenzuela
+* Edad : 24 años 
+* Actividad : Estudiante de Diseño Grafico. 
 
 
 >"".
@@ -466,7 +480,9 @@ Contactamos nuevamente a
 
 #### Usuario 5
 
-l.
+* Nombre: Matias Ureta
+* Edad: 26 Años
+* Actividad : Ejecutivo en Claro
 
 
 
@@ -483,7 +499,7 @@ l.
 
 
 
-Para ver el video del ultimo usuario probando el prototipo . Ver en este link [aquí]()
+Para ver el video del ultimo usuario probando el prototipo . Ver en este link [aquí](youtube.com)
 
 
 
@@ -504,31 +520,29 @@ Uno de los cambios que se realizaron en la aplicacion final
 ### Aprendizaje:
 
 Es la facilidad con la que el usuario es capaz de desarrollar las tareas asignadas por primera vez.
-Salvo algunas desviaciones ( las cuales fueron mas de caracter explorativo ) los usuarios pudieron comprender la funcion de cada uno de los botones y elementos,ademas de entender hacia donde iban estos. 
-La experiencia con otras paginas web, hizo que llevaran a cabo las instrucciones que se les habia dado, sin mayor dificultad.
- Esto es porque la estructura es muy semejante a otras web de compras.
+Los usuarios comprendendieronsin dificultad la funcion de cada uno de los botones y elementos, ademas de entender hacia donde iban estos, sin problemas.
+
 
 
 ### Eficiencia
 
-Es la destreza con la que usuarios con experiencia llevan a cabo las instrucciones que se les han dado. Su similitud a otras paginas de ventas , principalmente en la entrega de datos y pago , da una sencaion de familaridad y esto permite que el usuario , cumpla su objetivo ( realizar una compra) , sin mayor problema.
-Eso si , se considera agregar mas informacion sobre los precios y a las imagenes, a solicitud de los usuarios.
+Es la destreza con la que usuarios con experiencia llevan a cabo las instrucciones que se les han dado. Su similitud en el Diseño a otras paginas de Pokemon, entrega familiaridad y esto permite que el usuario, cumpla su objetivo, sin mayor problema.
+Eso si, se considera quitar texto explicativo, porque no cumple su funcion , a solicitud de los usuarios.
 
 
 
 
 ### Memoria
 
-Se evaluo si al pasar cierto tiempo, después de la primera interacción, el usuario fue capaz de recordar cómo funciona la aplicación sin necesidad de aprender a manejarla nuevamente.Y no se registraron problemas con eso , efectivamente los usuarios no requirieron repetir para entenderla
+Se evaluo si al pasar cierto tiempo, después de la primera interacción, el usuario fue capaz de recordar cómo funciona la aplicación sin necesidad de aprender a manejarla nuevamente.Y no se registraron problemas con eso , efectivamente los usuarios no requirieron repetir para entenderla.
 
 
 
 
 ### Errores
 
-La cantidad y gravedad de errores que cometa el usuario al interactuar con la aplicación, de igual manera se analiza la facilidad con la que se pueden enmendar los errores cometidos durante la prueba.
-Si bien se considero anular los botones sin funcion en el figma , al realizar la aplicacion final estos se dejaron porque eventualmente si se les podria agregar un enlace.
-Los errores de navegacion, en realidad solo fueron parte del proceso de exploracion en la pagina.
+Se debe reconocer la cantidad y gravedad de errores que cometa el usuario al interactuar con la aplicación, de igual manera se analiza la facilidad con la que se pueden enmendar los errores cometidos durante la prueba.
+Los errores estan mencionados con detalle mas abajo, en la parte de  _cambios del prototipo y concluciones finales_ .
 
  
 ### Satisfacción
@@ -549,6 +563,11 @@ Si esta web existiera, la ocuparian, ya que consideran que tiene caracteristicas
 
 * Se agrega contenido a opcion _Kantotop_ :
   En un comienzo solo contendria infografias estadisticas, respecto a _Pokemon Go_ , pero finalmente se pudo concretar una nueva historia de usuario sugerida , respecto a calcular frecuencia de apariciones en grafico de barras , y un menu dentro de esa seccion , donde se puede observar los Pokemon Legendarios.
+
+* Se disminuye la cantidad de texto : 
+En un comienzo nuestro sketch poseia Introduccion e Instrucciones, pero en los feedbacks , nos dimos cuenta que era texto que no cumpliria su funcion, porque nuestro usuario, sabe como funciona _Pokemon Go_ y tiene claro sus objetivos al usar otra aplicacion que complemente la informacion del juego.
+En nuestra segunda version, nuestro prototipo de alta fidelidad, ya no tenia los bloques de texto de antes, pero los nombres de los botones eran muy largos, asi que los redujimos aun mas, sin perder la identidad ( en los select se complementa el resto de la informacion) y de paso nos ayudo a mejorar la alineacion de los contenedores de menu.
+
 
 
 Podemos concluir que con esta experiencia de investigacion y desarrollo, esperamos que nuestro producto ayude a mejorar la estrategia del usuario al manejar la información más requerida o relevante para ellos, además de ahorrar tiempo al no tener que analizar todos los datos y retenerlos por ellos mismos.Nuestra meta es que el usuario obtenga la información de la app a manera de guia, al jugar _Pokémon GO_.
