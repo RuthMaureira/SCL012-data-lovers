@@ -12,12 +12,13 @@
 //   });
 // });
 
-
-/*Data a utilizar*/
+/*Data y funciones a utilizar*/
 import POKEMON from './data/pokemon/pokemon.js'
+
 /*Funciones*/
 import { resultName, resultType, resultEgg, resultCandy, orderPoke } from "../src/data";
 
+let nombre = resultName(POKEMON, 'Bulbasaur');
 
 describe('resultName', () => {
 
@@ -25,10 +26,10 @@ describe('resultName', () => {
     expect(typeof resultName).toBe('function');
   });
 
-  // describe('resultName(POKEMON, 'Bulbasaur') debería devolver ["Bulbasaur"])', () => {
-  //   // escribe aquí tu test
-  //   expect(resultName(POKEMON, 'Bulbasaur')).toStrictEqual(["Bulbasaur"]);
-  // });
+  describe('resultName(POKEMON, "Bulbasaur") debería devolver "nombre")', () => {
+    // escribe aquí tu test
+    expect(resultName(POKEMON, 'Bulbasaur')).toBe("nombre");
+  });
 });
 
 

@@ -45,6 +45,7 @@ function cambio1() {
 /*Data y funciones a utilizar*/
 import POKEMON from './data/pokemon/pokemon.js'
 
+
 /* Pruebas data */
 // console.log(POKEMON);
 // console.log(POKEMON[0].name);
@@ -69,6 +70,7 @@ import {
   orderPoke
 } from './data.js'; // Importar la función qe está en data.js
 
+console.log(POKEMON, resultName(POKEMON, 'Bulbasaur'));
 // console.log(resultType(POKEMON, 'Grass'));
 // console.log(resultType(POKEMON, 'Ghost'));
 // console.log(resultType(POKEMON, 'Fire').length);
