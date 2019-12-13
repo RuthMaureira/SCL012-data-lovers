@@ -72,9 +72,9 @@ Por esto es que nuestro objetivo principal es crear una plataforma que almacene 
 
 Para la organización y realizacion del proyecto, planificamos de la siguiente manera:
 
-Hicimos un análisis inicial, interpretación y solución del problema.
-Planificamos las tareas del proyecto `Trello` . Puedes revisarlo haciendo click [aquí](https://trello.com/b/TLe2McyO/datalovers)
-Realizamos el compromiso de terminar de ejecutar todas las actividades dentro de las semanas designadas.
+* Hicimos un análisis inicial, interpretación y solución del problema.
+* Planificamos las tareas del proyecto `Trello` ,Puedes revisarlo haciendo click [aquí](https://trello.com/b/TLe2McyO/datalovers)
+* Realizamos el compromiso de terminar de ejecutar todas las actividades dentro de las semanas designadas.
 
 
 
@@ -87,23 +87,33 @@ ___
 
 #### Historia 1
 
->""
+>"Yo como usuario de KantoDex, quiero clasificar Pokemon segun su tipo, para poder comparar sus caracteristicas entre si".
 
- 
+
 #### Historia 2
 
->""
+>"Yo como usuario de KantoDex, quiero ordenar Pokemon de forma alfabetica, para encontrarlos facilmente por su nombre".
  
 
 #### Historia 3
 
->" "
+>"Yo como usuario de KantoDex, quiero clasificar Pokemon segun la distancia que se necesita para eclosionar cada huevo, para asi conocer que posibilidades tengo que aparezca un Pokemon especifico en alguno de mis huevos en _Pokemon Go_".
 
 
 #### Historia 4
 
->" "
+>"Yo como usuario de KantoDex, quiero clasificar Pokemon segun la cantidad de Candys, para conocer cuantos dulces necesito para evolucionar algun Pokemon especifico de _Pokemon Go_".
 
+
+#### Historia 5
+
+>"Yo como Usuario de KantoDex, quiero ordenar Pokemon por tamaño , para saber cuales son los mas pequeños y cuales son los mas grandes para elegir en los combates".
+ 
+
+
+#### Historia 6
+
+>"Yo como Usuario de KantoDex, quiero ver la frecuencia de aparicion (horario) , para saber a que hora es mas probable que pueda atrapar a un pokemon especifico ".
 
 
 
@@ -111,13 +121,19 @@ ___
 #### Los objetivos principales se resumirían en :
 
 
-*
+* Mostrar data Pokemon en tarjetas
 
-*
+* Filtrar por tipo
 
-*
+* Filtrar por huevo (distancia)
 
-*
+* Ordenar tarjetas en forma alfabetica
+
+* Filtrar por cantidad de Candys para evolucion
+
+* Ordenar por tamaño
+
+* Calcular frecuencia de aparicion
 
 
 
@@ -174,9 +190,6 @@ Nuestro producto ayuda a mejorar la estrategia del usuario al manejar la informa
 
 
 
-
-
-
 ___
 
 ## Paleta de colores
@@ -230,23 +243,36 @@ Existen 3 formas para generar contraste dentro de un diseño.
 A través de la forma, con la ruptura del patrón.
 A través del color, se basa en las propiedades del color (tono, valor, saturación).
 A través de relaciones de tamaño de las formas.
-Como la web app es pequeña, decidi ocupar este principio solo en el color , como se mostro anteriormente , al elegir dos tonos muy diferentes entre si . El primario se usara como base , para que destaquen las imagenes y el texto , y el secundario para aquellos elementos que deseo resaltar.
+Este principio se ocupo a traves de el color, como es un data con imagenes. El color azul se usara como base, y el diseño elegido para el background hara que destaquen las imagenes , estas por otro lado apareceran en tarjetas blancas , para que destaque su diseño y color.
 
 
 
 ### Repeticion
 
+
 La repetición le da unidad, consistencia y cohesión al conjunto, esta suele aportar una inmediata sensación de armonía.
-La presencia de módulos tiende a unificar, por esto en el prototipo se repetira la misma estructura y posicion del header, los mismos colores y el mismo diseño de botones, solo habra cambios en el contenido de cada seccion.
+La presencia de módulos tiende a unificar, por esto en el prototipo se mantiene la misma estructura y posicion del header, el footer,los mismos colores , posicion y diseño de botones, solo habra cambios en el contenido de cada seccion.
+
+Las tarjetas tambien seran mostradas de la misma forma , independiente de la funcion activada (filtrar , ordenar , calcular). Solo habra cambios en el contenido , pero visualmente esto no afectara ya que se vera similar todas las veces, pues se repetira el orden.
 
 
 
 ### Alineacion
 
+
 Alinear los elementos es una operación imprescindible para conseguir una composición ordenada y lógica, con ello se crean unidades visuales definidas y relaciones entre elementos.
-A excepcion del nombre y el menu del header, todo esta alineado al centro,porque se esta trabajando con datos que se repiten y estan cuadriculados y eso ayuda a que se vea ordenado y simetrico. 
-Se testeara el prototipo, si tiene buena aceptacion se dejara asi, 
-sino, se intentaran algunos cambios en la alineacion despues del menu, en la seccion de ingreso de datos y pago ( hacia el izquierdo, porque al derecho puede ocasionar algo de tension visual , en cambio el orden hacia el lado izquierdo , suele sentirse mas comodo porque nuestra vista esta acostumbrada a tratar con ello).
+Para que se vea ordenado y simetrico, organizamos los contenidos para que se alinearan segun su naturaleza.
+Los contenedores del menu van a la misma distancia entre ellos, agrupados a la misma altura .Al igual que el texto, los botones de select e input , de esta manera se nota que estan relacionados entre si, a pesar de no cumplir la misma funcion.
+La alineacion en las tarjetas de imagenes, tambien es super importante, estas estan alineadas en grupos de 6 en en el caso de desktop , y dos en dos en el caso de movil. Se cuidara mucho que se mantenga la alineacion del menu en la vista de cada uno de los 
+Por ultimo el texto 
+
+
+
+
+### Proximidad
+
+
+
 
 
 
