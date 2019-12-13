@@ -53,11 +53,11 @@ body {
 }
 
 .typeKanto h4 {
-  padding-left: 0.85rem;
+  padding-left: 0.45rem;
 }
 
 .eggCount h4, .candyCount h4, .sortKanto h4  {
-  padding-left: 0.9rem;
+  padding-left: 0.15rem;
 }
 
 .poke {
@@ -446,7 +446,7 @@ a {
 .sizeSelect {
   background-color: #3A69C2;
   color: #fff;
-  width: 12rem;
+  width: 11rem;
   height: 8rem;
   margin-right: 1rem;
   margin-bottom: 1rem;
