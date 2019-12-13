@@ -1,4 +1,4 @@
-# KantoDex
+## DataLovers
 
 
 
@@ -26,20 +26,24 @@
 
 
 ***
+
 ## Introducción
 
-_KantoDex_ es una guia practica para jugadores de _Pokemon Go_ , que necesiten informacion sobre los 151 Pokemon de la region de _Kanto_ .
-En ella se puede encontrar datos de cada Pokemon , ordenarlos segun su tipo , averiguar en que huevo es mas probable que aparezca un pokemon especifico, entre muchas otras funciones.
 
-Su nombre es la union de las palabras _Kanto_ que es donde se encuentra _Pueblo Paleta_ , donde proviene el protagonista de la serie, Ash Ketchum. Ademas que la Data utilizada esta app es especificamente de los Pokemon de Kanto.
-Y _Dex_ proviene de  _Poke-dex_ , una enciclopedia virtual, que Ash utilizaba constantemente en la serie para averiguar informacion cuando visualizaba o atrapaba un nuevo Pokemon.
+_KantoDex_ es una guia practica para jugadores de _Pokemon Go_ , que necesiten informacion sobre los 151 Pokemon de la region de _Kanto_ .
+En ella se puede encontrar datos de cada especie, ordenarlos segun su tipo , averiguar en que huevo es mas probable que aparezca un pokemon especifico, entre muchas otras funciones.
+
+Su nombre es producto de la union de las palabras _Kanto_, (donde se encuentra _Pueblo Paleta_, lugar de el protagonista de la serie, _Ash Ketchum_) . Y _Dex_ que proviene de  _Poke-Dex_ , una enciclopedia virtual, que _Ash_ utilizaba constantemente en la serie para averiguar informacion cuando visualizaba o atrapaba un nuevo Pokemon.
 
 Con esta app, el usuario podra acceder a informacion de forma simple sin la necesidad de Instrucciones, para complementar y mejorar su rendimiento en el juego y  convertirse en todo un Maestro Pokemon. 
 
 
 ## Definición del Producto
 
-
+Es una Aplicacion/Enciclopedia y sirve tanto para complementar el juego _Pokemon Go_, como para conocer y adentrarse sobre el diverso y fascinante mundo Pokemon.
+Fue creada para usuarios que necesiten acceso rapido a la información.
+Ha sido diseñada para que su uso sea intuitivo, con solo un click, el usuario puede acceder a los datos e imagenes de 151 Pokemon.
+Permite filtrar y ordenar Pokemon segun su tipo ( planta , agua , roca , entre otros) , segun el huevo del que provengan y cuantos kilometros necesiten para su eclosion, 
 
 
 
@@ -50,14 +54,16 @@ Con esta app, el usuario podra acceder a informacion de forma simple sin la nece
 ##  Tipo de usuario
 
 
-Usuario frecuente de la aplicacion Pokemon Go , con conocimientos sobre los contenidos de la app , 
+Usuario frecuente de la aplicacion _Pokemon Go_ entre 15 a 35 años , con conocimientos sobre los contenidos de la app , que requiera informacion adicional sobre Pokemon de la region de _Kanto_.
 
 
 
 ## Objetivo principal 
 
-Definimos el producto a partir del usuario que busca tener un  acceso rápido y claro,tanto como informacion basica sobre los pokemon, sendo 
-Permitir al usuario encontrar información útil para usar en el juego Pokémon GO de manera fácil e intuitiva mediante diferentes categorías, filtros y/o búsqueda por nombre.
+
+
+
+
 
 ## Planificación
 
