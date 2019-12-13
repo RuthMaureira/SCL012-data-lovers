@@ -71,7 +71,7 @@ import {
 } from './data.js'; // Importar la función qe está en data.js
 
 console.log(POKEMON, resultName(POKEMON, 'Bulbasaur'));
-// console.log(resultType(POKEMON, 'Grass'));
+console.log(resultType(POKEMON, 'Grass'));
 // console.log(resultType(POKEMON, 'Ghost'));
 // console.log(resultType(POKEMON, 'Fire').length);
 // console.log(resultEgg(POKEMON, '2 km'));
