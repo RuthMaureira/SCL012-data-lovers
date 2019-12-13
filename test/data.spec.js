@@ -21,30 +21,59 @@ const datos = [{
   id: 1,
   num: '001',
   name: 'Bulbasaur',
+  img: 'http://www.serebii.net/pokemongo/pokemon/001.png',
   type: [
     'Grass',
     'Poison',
   ],
   height: '0.71 m',
   weight: '6.9 kg',
+  candy: 'Bulbasaur Candy',
   candy_count: 25,
   egg: '2 km',
+  spawn_chance: 0.69,
   avg_spawns: 69,
   spawn_time: '20:00',
-}, {
-  id: 2,
-  num: '002',
-  name: 'Ivysaur',
-  type: [
-    'Grass',
-    'Poison',
+  multipliers: [1.58],
+  weaknesses: [
+    'Fire',
+    'Ice',
+    'Flying',
+    'Psychic',
   ],
-  height: '0.99 m',
-  weight: '13.0 kg',
+  next_evolution: [{
+    num: '002',
+    name: 'Ivysaur',
+  }, {
+    num: '003',
+    name: 'Venusaur',
+  }],
+}, {
+  id: 5,
+  num: '005',
+  name: 'Charmeleon',
+  img: 'http://www.serebii.net/pokemongo/pokemon/005.png',
+  type: [
+    'Fire',
+  ],
+  height: '1.09 m',
+  weight: '19.0 kg',
+  candy: 'Charmander Candy',
   candy_count: 100,
   egg: 'Not in Eggs',
-  avg_spawns: 4.2,
-  spawn_time: '07:00'
+  spawn_chance: 0.012,
+  avg_spawns: 1.2,
+  spawn_time: '19:00',
+  multipliers: [1.79],
+  weaknesses: [
+    'Water',
+    'Ground',
+    'Rock',
+  ],
+  prev_evolution: [{
+    num: '004',
+    name: 'Charmander',
+}]
 }];
 
 
@@ -54,9 +83,9 @@ describe('resultName', () => {
     expect(typeof resultName).toBe('function');
   });
 
-  describe('resultName(datos, "Bulbasaur") debería devolver arreglo [{"avg_spawns": 69, "candy_count": 25, "egg": "2 km", "height": "0.71 m", "id": 1, "name": "Bulbasaur", "num": "001", "spawn_chance": 0.69, "spawn_time": "20:00", "type": ["Grass", "Poison"], "weight": "6.9 kg"}]', () => {
+  it('resultName(datos, "Bulbasaur") debería retornar arreglo [{"avg_spawns": 69, "candy": "Bulbasaur Candy", "candy_count": 25, "egg": "2 km", "height": "0.71 m", "id": 1, "img": "http://www.serebii.net/pokemongo/pokemon/001.png", "multipliers": [1.58], "name": "Bulbasaur", "next_evolution": [{"name": "Ivysaur", "num": "002"}, {"name": "Venusaur", "num": "003"}], "num": "001", "spawn_chance": 0.69, "spawn_time": "20:00", "type": ["Grass", "Poison"], "weaknesses": ["Fire", "Ice", "Flying", "Psychic"], "weight": "6.9 kg"}])', () => {
     // escribe aquí tu test
-    expect(resultName(datos,'Bulbasaur')).toMatchObject([{"avg_spawns": 69, "candy_count": 25, "egg": "2 km", "height": "0.71 m", "id": 1, "name": "Bulbasaur", "num": "001", "spawn_chance": 0.69, "spawn_time": "20:00", "type": ["Grass", "Poison"], "weight": "6.9 kg"}]);
+    expect(resultName(datos,'Bulbasaur')).toMatchObject([{"avg_spawns": 69, "candy": "Bulbasaur Candy", "candy_count": 25, "egg": "2 km", "height": "0.71 m", "id": 1, "img": "http://www.serebii.net/pokemongo/pokemon/001.png", "multipliers": [1.58], "name": "Bulbasaur", "next_evolution": [{"name": "Ivysaur", "num": "002"}, {"name": "Venusaur", "num": "003"}], "num": "001", "spawn_chance": 0.69, "spawn_time": "20:00", "type": ["Grass", "Poison"], "weaknesses": ["Fire", "Ice", "Flying", "Psychic"], "weight": "6.9 kg"}]);
   });
 });
 
@@ -67,10 +96,10 @@ describe('resultType', () => {
     expect(typeof resultType).toBe('function');
   });
 
-  // describe('resultType(datos, 'Grass') debería devolver arreglo', () => {
-  //   // escribe aquí tu test
-  //   expect(resultType(datos, 'Grass')).toStrictEqual(["Dratini"]);
-  // });
+  it('resultType(datos, "Grass") debería retornar arreglo [{"avg_spawns": 69, "candy": "Bulbasaur Candy", "candy_count": 25, "egg": "2 km", "height": "0.71 m", "id": 1, "img": "http://www.serebii.net/pokemongo/pokemon/001.png", "multipliers": [1.58], "name": "Bulbasaur", "next_evolution": [{"name": "Ivysaur", "num": "002"}, {"name": "Venusaur", "num": "003"}], "num": "001", "spawn_chance": 0.69, "spawn_time": "20:00", "type": ["Grass", "Poison"], "weaknesses": ["Fire", "Ice", "Flying", "Psychic"], "weight": "6.9 kg"}])', () => {
+    // escribe aquí tu test
+    expect(resultType(datos,'Grass')).toMatchObject([{"avg_spawns": 69, "candy": "Bulbasaur Candy", "candy_count": 25, "egg": "2 km", "height": "0.71 m", "id": 1, "img": "http://www.serebii.net/pokemongo/pokemon/001.png", "multipliers": [1.58], "name": "Bulbasaur", "next_evolution": [{"name": "Ivysaur", "num": "002"}, {"name": "Venusaur", "num": "003"}], "num": "001", "spawn_chance": 0.69, "spawn_time": "20:00", "type": ["Grass", "Poison"], "weaknesses": ["Fire", "Ice", "Flying", "Psychic"], "weight": "6.9 kg"}]);
+  });
 
 });
 
@@ -78,6 +107,11 @@ describe('resultEgg', () => {
 
   it('resultEgg debería ser una función', () => {
     expect(typeof resultEgg).toBe('function');
+  });
+
+  it('resultEgg(datos, "2 km") debería retornar arreglo [{"avg_spawns": 69, "candy": "Bulbasaur Candy", "candy_count": 25, "egg": "2 km", "height": "0.71 m", "id": 1, "img": "http://www.serebii.net/pokemongo/pokemon/001.png", "multipliers": [1.58], "name": "Bulbasaur", "next_evolution": [{"name": "Ivysaur", "num": "002"}, {"name": "Venusaur", "num": "003"}], "num": "001", "spawn_chance": 0.69, "spawn_time": "20:00", "type": ["Grass", "Poison"], "weaknesses": ["Fire", "Ice", "Flying", "Psychic"], "weight": "6.9 kg"}])', () => {
+    // escribe aquí tu test
+    expect(resultEgg(datos,'2 km')).toMatchObject([{"avg_spawns": 69, "candy": "Bulbasaur Candy", "candy_count": 25, "egg": "2 km", "height": "0.71 m", "id": 1, "img": "http://www.serebii.net/pokemongo/pokemon/001.png", "multipliers": [1.58], "name": "Bulbasaur", "next_evolution": [{"name": "Ivysaur", "num": "002"}, {"name": "Venusaur", "num": "003"}], "num": "001", "spawn_chance": 0.69, "spawn_time": "20:00", "type": ["Grass", "Poison"], "weaknesses": ["Fire", "Ice", "Flying", "Psychic"], "weight": "6.9 kg"}]);
   });
 
 });
@@ -88,8 +122,14 @@ describe('resultCandy', () => {
     expect(typeof resultCandy).toBe('function');
   });
 
+  it('resultCandy(datos, "25") debería retornar arreglo [{"avg_spawns": 69, "candy": "Bulbasaur Candy", "candy_count": 25, "egg": "2 km", "height": "0.71 m", "id": 1, "img": "http://www.serebii.net/pokemongo/pokemon/001.png", "multipliers": [1.58], "name": "Bulbasaur", "next_evolution": [{"name": "Ivysaur", "num": "002"}, {"name": "Venusaur", "num": "003"}], "num": "001", "spawn_chance": 0.69, "spawn_time": "20:00", "type": ["Grass", "Poison"], "weaknesses": ["Fire", "Ice", "Flying", "Psychic"], "weight": "6.9 kg"}])', () => {
+    // escribe aquí tu test
+    expect(resultCandy(datos,'25')).toMatchObject([{"avg_spawns": 69, "candy": "Bulbasaur Candy", "candy_count": 25, "egg": "2 km", "height": "0.71 m", "id": 1, "img": "http://www.serebii.net/pokemongo/pokemon/001.png", "multipliers": [1.58], "name": "Bulbasaur", "next_evolution": [{"name": "Ivysaur", "num": "002"}, {"name": "Venusaur", "num": "003"}], "num": "001", "spawn_chance": 0.69, "spawn_time": "20:00", "type": ["Grass", "Poison"], "weaknesses": ["Fire", "Ice", "Flying", "Psychic"], "weight": "6.9 kg"}]);
+  });
+
 });
 
+/* Ordenar: 8 casos */
 describe('orderPoke', () => {
 
   it('orderPoke debería ser una función', () => {
