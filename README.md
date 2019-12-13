@@ -157,7 +157,7 @@ Este en un principio contaba con:
 * Tarjetas con imagenes e informacion detallada de cada Pokemon.
 
 
-![sketch]()
+![sketch](https://i.ibb.co/3BqmLvv/20191213-123901-mh1576251712758.jpg)
  
 
    
@@ -498,9 +498,9 @@ llevando a cabo funciones de teatro.
 
 
 
+![Figma](https://i.ibb.co/s5syCtS/Screenshot-20191213-124003-Gallery-1.jpg)
 
-
-Para ver el video del ultimo usuario probando el prototipo . Ver en este link [aquí](youtube.com)
+Para ver el video de entrevista y testeo del prototipo . Ver en este link [aquí](youtube.com)
 
 
 
