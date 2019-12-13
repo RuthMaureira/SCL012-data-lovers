@@ -29,7 +29,6 @@
 
 ## Introducción
 
-
 _KantoDex_ es una guia practica para jugadores de _Pokemon Go_ , que necesiten informacion sobre los 151 Pokemon de la region de _Kanto_ .
 En ella se puede encontrar datos de cada especie, ordenarlos segun su tipo , averiguar en que huevo es mas probable que aparezca un pokemon especifico, entre muchas otras funciones.
 
@@ -42,10 +41,12 @@ Con esta app, el usuario podra acceder a informacion de forma simple sin la nece
 
 ## Definición del Producto
 
+
 Es una Aplicacion/Enciclopedia y sirve tanto para complementar el juego _Pokemon Go_, como para conocer y adentrarse sobre el diverso y fascinante mundo Pokemon.
 Fue creada para usuarios que necesiten acceso rapido a la información.
-Ha sido diseñada para que su uso sea intuitivo, con solo un click, el usuario puede acceder a los datos e imagenes de 151 Pokemon.
-Permite filtrar y ordenar Pokemon segun su tipo ( planta , agua , roca , entre otros) , segun el huevo del que provengan y cuantos kilometros necesiten para su eclosion, 
+Ha sido diseñada para que con un solo un click, el usuario puede acceder a los datos e imagenes de 151 Pokemon.
+Permite filtrar y ordenar Pokemon segun su tipo ( planta , agua , roca , entre otros) , segun el huevo del que provengan y cuantos kilometros necesiten para su eclosion.
+Tiene datos extra sobre el tamaño, peso de cada Pokemon y ademas se puede consultar sobre la frecuencia de aparicion de algunos Pokemon , es una guia practica.
 
 
 
@@ -60,23 +61,29 @@ Usuario frecuente de la aplicacion _Pokemon Go_ entre 15 a 35 años , con conoci
 ## Objetivo principal 
 
 
-
+Existen bastantes páginas relacionadas con Pokemon y _Pokemon Go_, pero funcionalmente no son tan eficientes ni rapidas, la forma en que se muestran las características Pokemon a traves de tablas comparativas, hacen que sean bastante aburridas de consultar.
+Hay otras que son de difícil acceso , con mucho lenguaje técnico y textos explicativos larguisimos.
+Por esto es que nuestro objetivo principal es crear una plataforma que almacene los datos de los diferentes Pokemon de acceso facil, rapido , intuitivo y comodo para el usuario.
 
 
 
 ## Planificación
 
 
+Para la organización y realizacion del proyecto, planificamos de la siguiente manera:
+
+Hicimos un análisis inicial, interpretación y solución del problema.
+Planificamos las tareas del proyecto `Trello` . Puedes revisarlo haciendo click [aquí](https://trello.com/b/TLe2McyO/datalovers)
+Realizamos el compromiso de terminar de ejecutar todas las actividades dentro de las semanas designadas.
 
 
--Tareas en `Trello` Puedes revisarlo haciendo click [aquí](https://trello.com/b/TLe2McyO/datalovers)
 
 
 ___
 
 # Historias de Usuario
 
-L:
+
 
 #### Historia 1
 
@@ -121,16 +128,17 @@ ___
 
 ## Sketch
 
+Los primeros acercamientos a nuestra idea de aplicación web , fue a traves del prototipo de baja fidelidad o sketch .
+El cual nos ayuda a plasmar la idea principal de la App, la forma de desplazamiento a traves de la información que contendrá esta misma, y los elementos que la componen. 
 
-
-Este contaba con:
+Este en un principio contaba con:
  
-* Pagina de inicio.
-* Instrucciones de la web app
-* 
-* 
-* 
-* 
+* Pagina de inicio y menu.
+* Instrucciones de la web app.
+* Pagina para filtrar (tipo , huevo).
+* Pagina para ordenar ( id, alfabeticamente).
+* Pagina para ver calculos ( mas frecuentes , menos frecuentes). 
+* Tarjetas con imagenes e informacion detallada de cada Pokemon.
 
 
 ![sketch]()
@@ -200,12 +208,14 @@ Con esto le dimos una identidad especifica de _Pokemon Go_.
 Tanto la paleta de colores elegida como el Background de Universo, fueron seleccionados para que de manera implicita demuestre que es una aplicacion relacionada con juego, sin la necesidad de explicar a traves de texto e instrucciones su relacion con la app _Pokemon Go_ .
  
  
-<img src="https://i.ibb.co/8bQpjGm/pokemon-go-large-sized-png-logo-2-1.png" alt="Go"  width="200" height="200">
+<img src="https://i.ibb.co/8bQpjGm/pokemon-go-large-sized-png-logo-2-1.png" alt="Go"  width="200" height="100">
 
 
 
 ![video](https://i.ibb.co/kQ67vV9/IMG-20191127-WA0007-1.jpg)
 Imagen del video seleccionado para background
+
+
 
 ___
 
