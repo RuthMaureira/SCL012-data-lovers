@@ -1,9 +1,9 @@
-# Kanto-dex
+## DataLovers
 
 
 
 
-![inicio](foto banner)
+![inicio](https://i.ibb.co/nft304x/Screenshot-from-2019-12-12-13-20-27.png)
 
  
 
@@ -26,62 +26,94 @@
 
 
 ***
+
 ## Introducción
 
-KantoDex , es una guia practica 
- 
+_KantoDex_ es una guia practica para jugadores de _Pokemon Go_ , que necesiten informacion sobre los 151 Pokemon de la region de _Kanto_ .
+En ella se puede encontrar datos de cada especie, ordenarlos segun su tipo , averiguar en que huevo es mas probable que aparezca un pokemon especifico, entre muchas otras funciones.
+
+Su nombre es producto de la union de las palabras _Kanto_, (donde se encuentra _Pueblo Paleta_, lugar de el protagonista de la serie, _Ash Ketchum_) . Y _Dex_ que proviene de  _Poke-Dex_ , una enciclopedia virtual, que _Ash_ utilizaba constantemente en la serie para averiguar informacion cuando visualizaba o atrapaba un nuevo Pokemon.
+
+Con esta app, el usuario podra acceder a informacion de forma simple sin la necesidad de Instrucciones, para complementar y mejorar su rendimiento en el juego y  convertirse en todo un Maestro Pokemon. 
+
+
 
 
 ## Definición del Producto
 
 
+Es una Aplicacion/Enciclopedia y sirve tanto para complementar el juego _Pokemon Go_, como para conocer y adentrarse sobre el diverso y fascinante mundo Pokemon.
+Fue creada para usuarios que necesiten acceso rapido a la información.
+Ha sido diseñada para que con un solo un click, el usuario puede acceder a los datos e imagenes de 151 Pokemon.
+Permite filtrar y ordenar Pokemon segun su tipo ( planta , agua , roca , entre otros) , segun el huevo del que provengan y cuantos kilometros necesiten para su eclosion.
+Tiene datos extra sobre el tamaño, peso de cada Pokemon y ademas se puede consultar sobre la frecuencia de aparicion de algunos Pokemon , es una guia practica.
 
- 
+
+
+
 ##  Tipo de usuario
 
 
-Usuario frecuente de la aplicacion Pokemon Go , con conocimientos sobre los contenidos de la app , 
+Usuario frecuente de la aplicacion _Pokemon Go_ entre 15 a 35 años , con conocimientos sobre los contenidos de la app , que requiera informacion adicional sobre Pokemon de la region de _Kanto_.
 
 
 
 ## Objetivo principal 
 
-Definimos el producto a partir del usuario que busca tener un  acceso rápido y claro,tanto como informacion basica sobre los pokemon, sendo 
+
+Existen bastantes páginas relacionadas con Pokemon y _Pokemon Go_, pero funcionalmente no son tan eficientes ni rapidas, la forma en que se muestran las características Pokemon a traves de tablas comparativas, hacen que sean bastante aburridas de consultar.
+Hay otras que son de difícil acceso , con mucho lenguaje técnico y textos explicativos larguisimos.
+Por esto es que nuestro objetivo principal es crear una plataforma que almacene los datos de los diferentes Pokemon de acceso facil, rapido , intuitivo y comodo para el usuario.
+
 
 
 ## Planificación
 
 
+Para la organización y realizacion del proyecto, planificamos de la siguiente manera:
+
+* Hicimos un análisis inicial, interpretación y solución del problema.
+* Planificamos las tareas del proyecto `Trello` ,Puedes revisarlo haciendo click [aquí](https://trello.com/b/TLe2McyO/datalovers)
+* Realizamos el compromiso de terminar de ejecutar todas las actividades dentro de las semanas designadas.
 
 
--Tareas en `Trello` Puedes revisarlo haciendo click [aquí](https://trello.com/b/TLe2McyO/datalovers)
 
 
 ___
 
 # Historias de Usuario
 
-L:
+
 
 #### Historia 1
 
->""
+>"Yo como usuario de KantoDex, quiero clasificar Pokemon segun su tipo, para poder comparar sus caracteristicas entre si".
 
- 
+
 #### Historia 2
 
->""
+>"Yo como usuario de KantoDex, quiero ordenar Pokemon de forma alfabetica, para encontrarlos facilmente por su nombre".
  
 
 #### Historia 3
 
->" "
+>"Yo como usuario de KantoDex, quiero clasificar Pokemon segun la distancia que se necesita para eclosionar cada huevo, para asi conocer que posibilidades tengo que aparezca un Pokemon especifico en alguno de mis huevos en _Pokemon Go_".
 
 
 #### Historia 4
 
->" "
+>"Yo como usuario de KantoDex, quiero clasificar Pokemon segun la cantidad de Candys, para conocer cuantos dulces necesito para evolucionar algun Pokemon especifico de _Pokemon Go_".
 
+
+#### Historia 5
+
+>"Yo como Usuario de KantoDex, quiero ordenar Pokemon por tamaño , para saber cuales son los mas pequeños y cuales son los mas grandes para elegir en los combates".
+ 
+
+
+#### Historia 6
+
+>"Yo como Usuario de KantoDex, quiero ver la frecuencia de aparicion (horario) , para saber a que hora es mas probable que pueda atrapar a un pokemon especifico ".
 
 
 
@@ -89,13 +121,19 @@ L:
 #### Los objetivos principales se resumirían en :
 
 
-*
+* Mostrar data Pokemon en tarjetas
 
-*
+* Filtrar por tipo
 
-*
+* Filtrar por huevo (distancia)
 
-*
+* Ordenar tarjetas en forma alfabetica
+
+* Filtrar por cantidad de Candys para evolucion
+
+* Ordenar por tamaño
+
+* Calcular frecuencia de aparicion
 
 
 
@@ -106,16 +144,17 @@ ___
 
 ## Sketch
 
+Los primeros acercamientos a nuestra idea de aplicación web , fue a traves del prototipo de baja fidelidad o sketch .
+El cual nos ayuda a plasmar la idea principal de la App, la forma de desplazamiento a traves de la información que contendrá esta misma, y los elementos que la componen. 
 
-
-Este contaba con:
+Este en un principio contaba con:
  
-* Pagina de inicio.
-* Instrucciones de la web app
-* 
-* 
-* 
-* 
+* Pagina de inicio y menu.
+* Instrucciones de la web app.
+* Pagina para filtrar (tipo , huevo).
+* Pagina para ordenar ( id, alfabeticamente).
+* Pagina para ver calculos ( mas frecuentes , menos frecuentes). 
+* Tarjetas con imagenes e informacion detallada de cada Pokemon.
 
 
 ![sketch]()
@@ -125,13 +164,29 @@ Este contaba con:
 ## Investigacion y Desarrollo
 
 
-Una vez hecho el sketch,  cumplieran con 3 caracteristicas principales:
 
-1)
+Para diseñar esta webapp nos basamos en entrevistas que realizamos a jugadores habituales de _Pokémon GO_ .
+Buscamos por internet y redes sociales, concluyendo que existian redes completas de fans del juego, por lo que nos dirigimos a dos puntos especificos de reunion: Parque Forestal y tienda _Deckmachine_ en Santiago centro.
 
-2)
+En el Parque forestal, consultamos al azar a 3 jovenes jugadores que acostumbraban a cazar pokemon algunas tardes en la semana.
+Les presentamos nuestro sketch y les pedimos feedback para comprender mejor sus necesidades y modificar el prototipo para que cumpliera con sus exigencias. Sin embargo nos dimos cuenta que el publico consultado del parque era bastante heterogeneo, osea se puede encontrar desde un usuario principiante, que por coincidencia paso por ahi y aprovecho la ocasion para jugar, hasta un usuario mucho mas avanzado que participa en salidas grupales organizadas al parque a capturar Pokemon.
 
-3)
+Intentando profundizar aun mas en el Usuario frecuente de la aplicacion , visitamos _Deckmachine_ una tienda que se especializa en productos coleccionables y mazos de cartas tematicos. En este lugar ademas, se organizan campeonatos y eventos en torno al anime.
+
+Puedes visitar su sitio web  [aquí](https://www.deckmachine.cl/categoria-producto/pokemon-tcg/)
+
+Aca conocimos verdaderos Fans Pokemon, usuarios asiduos de la aplicacion, que intercambian sus conocimientos, y que muy entusiasmados nos entregaron su opinion respecto a los problemas más frecuentes con _Pokemon Go_ y como creen que mejoraria su experiencia con nuestra aplicacion en su desempeño al jugar.
+
+<img src="https://i.ibb.co/mhm9vnM/IMG-20191212-WA0006-1.jpg" alt="img1"  width="400" height="300"> <img src="https://i.ibb.co/1GKC0ng/IMG-20191212-WA0008-1.jpg" alt="img2"  width="400" height="300">
+<img src="https://i.ibb.co/C8dXsRh/IMG-20191212-WA0007-1.jpg" alt="img3"  width="400" height="300"> <img src="https://i.ibb.co/3zgx8nW/71028325-476387566419912-530097087149244416-o-1.jpg" alt="img4"  width="400" height="300">
+
+Al presentarles nuestro sketch y como pensaban
+
+
+
+Sus respuestas indicaron que necesitaban ver la información de pokemones presentada de cierta manera y sobre todo algunas características que ellos consideran más importantes para jugar mejor lo que se tradujo en nuestras historias de usuario.
+
+Nuestro producto ayuda a mejorar la estrategia del usuario al manejar la información más requerida o relevante para ellos además les ahorra tiempo al no tener que analizar toda la informacion y retenerla por ellos mismos.Nuestro usuario tendría la información mostrada en nuestra página a manera de guia al jugar Pokémon GO.
 
 
 
@@ -145,15 +200,18 @@ Ocupando el azul como color primario y el amarillo como color secundario, solo p
 Esta eleccion se dio en forma natural, debido a que el amarillo como color dominante, satura y quita la atencion de las Imagenes, sin embargo en pequeñas dosis puede dar la sensacion de energia y positividad.
 Mientras que el azul, el unico color primario del espectro frio, si bien es llamativo, ayuda a destacar sin agotar la vision, da una sensacion de calma y las letras en blanco son mas legibles en el.
 
- <img src="https://i.ibb.co/ZzpKJ83/Screenshot-from-2019-12-11-15-17-21.png"  alt="logo"    width="550" height="400"> 
+ <img src="https://i.ibb.co/ZzpKJ83/Screenshot-from-2019-12-11-15-17-21.png"  alt="logo"    width="400" height="200"> 
 
 
 
-####Si quieres revisar la paleta de colores puedes seguir este enlace:  
-[aquí](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=185ee3&secondary.color=ffcc03)
+
 
 
 ![paleta](https://i.ibb.co/7jnMmvc/Screenshot-from-2019-12-11-15-32-52.png)
+
+
+
+ Si quieres revisar la paleta de colores puedes seguir este enlace: [aquí](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=185ee3&secondary.color=ffcc03)
 
 
 
@@ -163,12 +221,14 @@ Con esto le dimos una identidad especifica de _Pokemon Go_.
 Tanto la paleta de colores elegida como el Background de Universo, fueron seleccionados para que de manera implicita demuestre que es una aplicacion relacionada con juego, sin la necesidad de explicar a traves de texto e instrucciones su relacion con la app _Pokemon Go_ .
  
  
-![Go](https://i.ibb.co/8bQpjGm/pokemon-go-large-sized-png-logo-2-1.png)
+<img src="https://i.ibb.co/8bQpjGm/pokemon-go-large-sized-png-logo-2-1.png" alt="Go"  width="200" height="100">
 
 
 
 ![video](https://i.ibb.co/kQ67vV9/IMG-20191127-WA0007-1.jpg)
 Imagen del video seleccionado para background
+
+
 
 ___
 
@@ -183,23 +243,36 @@ Existen 3 formas para generar contraste dentro de un diseño.
 A través de la forma, con la ruptura del patrón.
 A través del color, se basa en las propiedades del color (tono, valor, saturación).
 A través de relaciones de tamaño de las formas.
-Como la web app es pequeña, decidi ocupar este principio solo en el color , como se mostro anteriormente , al elegir dos tonos muy diferentes entre si . El primario se usara como base , para que destaquen las imagenes y el texto , y el secundario para aquellos elementos que deseo resaltar.
+Este principio se ocupo a traves de el color, como es un data con imagenes. El color azul se usara como base, y el diseño elegido para el background hara que destaquen las imagenes , estas por otro lado apareceran en tarjetas blancas , para que destaque su diseño y color.
 
 
 
 ### Repeticion
 
+
 La repetición le da unidad, consistencia y cohesión al conjunto, esta suele aportar una inmediata sensación de armonía.
-La presencia de módulos tiende a unificar, por esto en el prototipo se repetira la misma estructura y posicion del header, los mismos colores y el mismo diseño de botones, solo habra cambios en el contenido de cada seccion.
+La presencia de módulos tiende a unificar, por esto en el prototipo se mantiene la misma estructura y posicion del header, el footer,los mismos colores , posicion y diseño de botones, solo habra cambios en el contenido de cada seccion.
+
+Las tarjetas tambien seran mostradas de la misma forma , independiente de la funcion activada (filtrar , ordenar , calcular). Solo habra cambios en el contenido , pero visualmente esto no afectara ya que se vera similar todas las veces, pues se repetira el orden.
 
 
 
 ### Alineacion
 
+
 Alinear los elementos es una operación imprescindible para conseguir una composición ordenada y lógica, con ello se crean unidades visuales definidas y relaciones entre elementos.
-A excepcion del nombre y el menu del header, todo esta alineado al centro,porque se esta trabajando con datos que se repiten y estan cuadriculados y eso ayuda a que se vea ordenado y simetrico. 
-Se testeara el prototipo, si tiene buena aceptacion se dejara asi, 
-sino, se intentaran algunos cambios en la alineacion despues del menu, en la seccion de ingreso de datos y pago ( hacia el izquierdo, porque al derecho puede ocasionar algo de tension visual , en cambio el orden hacia el lado izquierdo , suele sentirse mas comodo porque nuestra vista esta acostumbrada a tratar con ello).
+Para que se vea ordenado y simetrico, organizamos los contenidos para que se alinearan segun su naturaleza.
+Los contenedores del menu van a la misma distancia entre ellos, agrupados a la misma altura .Al igual que el texto, los botones de select e input , de esta manera se nota que estan relacionados entre si, a pesar de no cumplir la misma funcion.
+La alineacion en las tarjetas de imagenes, tambien es super importante, estas estan alineadas en grupos de 6 en en el caso de desktop , y dos en dos en el caso de movil. Se cuidara mucho que se mantenga la alineacion del menu en la vista de cada uno de los 
+Por ultimo el texto 
+
+
+
+
+### Proximidad
+
+
+
 
 
 
@@ -464,10 +537,10 @@ Si esta web existiera, la ocuparian, ya que consideran que tiene caracteristicas
 
 
 
+CAMBIOS PROTOITPO , A APLICACION FINAL.
 
 
-
-
+- se quita boton Inicio del menu ; ya que redundante y se puede volver AL INCIIO A TRAVES DE OTROS BOTONES
 
  
 
