@@ -1,7 +1,7 @@
-/*Video: pause and play*/
+/*Video: pause and play */
 /* Se crea variables para conectar DOM con HTML */
-let video = document.getElementById("myVideo");
-let btn = document.getElementById("myBtn");
+const video = document.getElementById("myVideo");
+const btn = document.getElementById("myBtn");
 
 /* cuando se presione botón: pause or play*/
 btn.addEventListener('click', videoAction);
@@ -179,7 +179,7 @@ function drawChart1() {
 
 
   let options = {
-    title: "Media de avistamientos",
+    title: "Media de avistamientos Más frecuentes",
     width: '100%',
     height: '300',
     bar: {
@@ -240,7 +240,7 @@ function drawChart2() {
 
 
   let options = {
-    title: "Media de avistamientos",
+    title: "Media de avistamientos Menos Frecuentes",
     width: '100%',
     height: '300',
     bar: {

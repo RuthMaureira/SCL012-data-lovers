@@ -5,13 +5,15 @@ export const example = () => {
   return 'example';
 };*/
 
-
+/* Filtrar por nombre */
+export let resultName = (dataPoke, nameKanto) => {
+  /* Método include() determina si una matriz contiene un elemento específico. Devuelve verdadero si la matriz contiene el elemento y falso si no. */
+  return dataPoke.filter(poke => poke.name.includes(nameKanto));
+};
 
 /* Filtrar por tipo */
 
 export let resultType = (dataPoke, typeKanto) => {
-
-  /* Método include() determina si una matriz contiene un elemento específico. Devuelve verdadero si la matriz contiene el elemento y falso si no. */
   return dataPoke.filter(poke => poke.type.includes(typeKanto));
 };
 
@@ -29,6 +31,10 @@ export let resultCandy = (dataPoke, candyKanto) => {
 
 
 /* Ordenar alfabéticamente, ID, altura y peso */
+
+/* A-Z: Si a<b return -1, se sitúa a en un indice menor que b. Es decir, a viene primero.
+Si a=b retorna 0, se deja a y b sin cambios entre ellos, pero ordenados con respecto a todos los elementos diferentes.
+Si a>b return 1, se sitúa b en un indice menor que a.*/
 
 export let orderPoke = (dataPoke, sortBy, sortOrder) => {
 
@@ -52,6 +58,7 @@ export let orderPoke = (dataPoke, sortBy, sortOrder) => {
       if (b.name > a.name) {
         return 1;
       } else {
+
         return -1;
       }
     });

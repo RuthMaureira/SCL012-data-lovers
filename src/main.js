@@ -1,7 +1,7 @@
 /*Video: pause and play*/
 /* Se crea variables para conectar DOM con HTML */
-let video = document.getElementById("myVideo");
-let btn = document.getElementById("myBtn");
+const video = document.getElementById("myVideo");
+const btn = document.getElementById("myBtn");
 
 /* cuando se presione botón: pause or play*/
 btn.addEventListener('click', videoAction);
@@ -18,10 +18,13 @@ function videoAction() {
 }
 
 /*---------------------------------------------------------------------------------*/
+
+/* Ingreso mobile al hacer click en ball */
+
 let home = document.getElementById("home");
-let	kantodex = document.getElementById("kantodex");
+let kantodex = document.getElementById("kantodex");
 let ingreso = document.getElementById("ingreso");
-let	navigation = document.getElementById("navigation");
+let navigation = document.getElementById("navigation");
 let wrap = document.getElementById("wrap");
 let contacto = document.getElementById("contacto");
 ingreso.addEventListener('click', cambio1);
@@ -33,56 +36,48 @@ function cambio1() {
   home.style.display = "none";
   kantodex.style.display = "block";
   navigation.style.display = "block";
-  wrap.style.display= "flex";
+  wrap.style.display = "flex";
   contacto.style.display = "block";
 }
 
-/*Data a utilizar*/
+/*---------------------------------------------------------------------------------*/
+
+/*Data y funciones a utilizar*/
 import POKEMON from './data/pokemon/pokemon.js'
 
-
 /* Pruebas data */
-console.log(POKEMON);
-console.log(POKEMON[0].name);
-console.log(POKEMON[0].num);
-console.log(POKEMON[0].type);
-console.log(POKEMON[0].type[0]);
-console.log(POKEMON[0].next_evolution[0].name);
+// console.log(POKEMON);
+// console.log(POKEMON[0].name);
+// console.log(POKEMON[0].num);
+// console.log(POKEMON[0].type);
+// console.log(POKEMON[0].type[0]);
+// console.log(POKEMON[0].next_evolution[0].name);
 
 // console.log(typeof POKEMON[2].next_evolution[0].name);
 
-console.log(POKEMON.length);
-console.log(Object.keys(POKEMON[0]));
-
-console.log(POKEMON[0].candy_count);
-console.log(typeof POKEMON[0].candy_count);
-console.log(POKEMON.map(poke => poke.avg_spawns));
-
-import {
-  resultType
-} from './data.js'; // Importar la función qe está en data.js
-console.log(resultType(POKEMON, 'Grass'));
-console.log(resultType(POKEMON, 'Ghost'));
-console.log(resultType(POKEMON, 'Fire').length);
+// console.log(POKEMON.length);
+// console.log(Object.keys(POKEMON[0]));
+// console.log(POKEMON[0].candy_count);
+// console.log(typeof POKEMON[0].candy_count);
+// console.log(POKEMON.map(poke => poke.avg_spawns));
 
 import {
-  resultEgg
-} from './data.js'; // Importar la función qe está en data.js
-console.log(resultEgg(POKEMON, '2 km'));
-
-import {
-  resultCandy
-} from './data.js'; // Importar la función qe está en data.js
-console.log(resultCandy(POKEMON, '25'));
-
-
-import {
+  resultName,
+  resultType,
+  resultEgg,
+  resultCandy,
   orderPoke
 } from './data.js'; // Importar la función qe está en data.js
+
+// console.log(resultType(POKEMON, 'Grass'));
+// console.log(resultType(POKEMON, 'Ghost'));
+// console.log(resultType(POKEMON, 'Fire').length);
+// console.log(resultEgg(POKEMON, '2 km'));
+// console.log(resultCandy(POKEMON, '25'));
+
 // console.log(orderPoke(POKEMON, 'height', 'desc'));
 
 /*---------------------------------------------------------------------------------*/
-
 
 /* Función que crea cards con info de pokemon*/
 function createCard(objPoke) {
@@ -196,8 +191,8 @@ function createCard(objPoke) {
   return cardTarjetaWrap;
 }
 
-console.log(createCard(POKEMON[0]));
-console.log(createCard(POKEMON[2]));
+// console.log(createCard(POKEMON[0]));
+// console.log(createCard(POKEMON[2]));
 
 /*---------------------------------------------------------------------------------*/
 
@@ -239,19 +234,22 @@ searchPoke(POKEMON, listPoke);
 /* Buscar pokemon al hacer click en botón */
 btnSearch.addEventListener('click', buscar);
 
-function buscar(){
-  console.log(inputPoke.value);
+function buscar() {
+  // console.log(inputPoke.value);
+  /* Si se selecciona esta opción resetear el resto de select e input */
+  document.ready = document.getElementById("tipoPoke").value = 'allType';
+  document.ready = document.getElementById("huevoPoke").value = 'allEgg';
+  document.ready = document.getElementById("candyPoke").value = 'allCandy';
+  document.ready = document.getElementById("ordenPoke").value = 'order';
 
   /* seleccionar el elegido */
-  let seleccion = POKEMON.filter(poke => poke.name.includes(inputPoke.value));
+  let seleccion = resultName(POKEMON, inputPoke.value);
 
-  if(inputPoke.value === '' || Object.keys(seleccion).length === 0){
+  if (inputPoke.value === '' || Object.keys(seleccion).length === 0) {
     alert("Recuerde ingresar información válida (nombre/número Pókemon)");
-    inputPoke.value ='';
+    inputPoke.value = '';
     start();
-  }
-
-  else {
+  } else {
 
     /* pedir que vacie wrap en html */
     document.getElementById("wrap").innerHTML = "";
@@ -261,16 +259,10 @@ function buscar(){
     /* Añadir como hijos a div wrap */
     let cardWrap = document.getElementById('wrap');
     cardWrap.appendChild(tarjeta);
-
+    inputPoke.value = '';
 
   }
 }
-
-
-
-
-
-
 
 /*---------------------------------------------------------------------------------*/
 
@@ -279,7 +271,7 @@ function buscar(){
 /* variable para select typeKanto */
 let selectType = document.getElementById("tipoPoke");
 
-console.log(selectType.value);
+// console.log(selectType.value);
 
 selectType.addEventListener('change', () => {
 
@@ -289,7 +281,7 @@ selectType.addEventListener('change', () => {
   document.ready = document.getElementById("candyPoke").value = 'allCandy';
   document.ready = document.getElementById("ordenPoke").value = 'order';
 
-  console.log(selectType.value);
+  // console.log(selectType.value);
 
   if (selectType.value === 'allType') {
     /* pedir que vacie wrap en html */
@@ -306,7 +298,7 @@ selectType.addEventListener('change', () => {
     /* variable para almacenar resultado */
     let selectResult = resultType(POKEMON, selectValue);
 
-    console.log(selectResult);
+    // console.log(selectResult);
     //recorriendo con for el resultado
     for (let i = 0; i < selectResult.length; i++) {
       /* muestre en wrap tarjeta */
@@ -431,36 +423,36 @@ selectOrder.addEventListener('change', () => {
 
     switch (selectValue) {
       case "A-Z":
-      /* variable para almacenar resultado */
-      selectResult = orderPoke(POKEMON, 'name', 'A-Z');
+        /* variable para almacenar resultado */
+        selectResult = orderPoke(POKEMON, 'name', 'A-Z');
         break;
       case "Z-A":
-      /* variable para almacenar resultado */
-      selectResult = orderPoke(POKEMON, 'name', 'Z-A');
+        /* variable para almacenar resultado */
+        selectResult = orderPoke(POKEMON, 'name', 'Z-A');
         break;
       case "idAsc":
-      /* variable para almacenar resultado */
-      selectResult = orderPoke(POKEMON, 'id', 'asc');
+        /* variable para almacenar resultado */
+        selectResult = orderPoke(POKEMON, 'id', 'asc');
         break;
       case "idDesc":
-      /* variable para almacenar resultado */
-      selectResult = orderPoke(POKEMON, 'id', 'desc');
+        /* variable para almacenar resultado */
+        selectResult = orderPoke(POKEMON, 'id', 'desc');
         break;
       case "hAsc":
-      /* variable para almacenar resultado */
-      selectResult = orderPoke(POKEMON, 'height', 'asc');
+        /* variable para almacenar resultado */
+        selectResult = orderPoke(POKEMON, 'height', 'asc');
         break;
       case "hDesc":
-      /* variable para almacenar resultado */
-      selectResult = orderPoke(POKEMON, 'height', 'desc');
+        /* variable para almacenar resultado */
+        selectResult = orderPoke(POKEMON, 'height', 'desc');
         break;
       case "wAsc":
-      /* variable para almacenar resultado */
-      selectResult = orderPoke(POKEMON, 'weight', 'asc');
+        /* variable para almacenar resultado */
+        selectResult = orderPoke(POKEMON, 'weight', 'asc');
         break;
       case "wDesc":
-      /* variable para almacenar resultado */
-      selectResult = orderPoke(POKEMON, 'weight', 'desc');
+        /* variable para almacenar resultado */
+        selectResult = orderPoke(POKEMON, 'weight', 'desc');
         break;
     }
 
