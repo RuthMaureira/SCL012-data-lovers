@@ -153,8 +153,8 @@ Puedes visitar su sitio web  [aquí](https://www.deckmachine.cl/categoria-produc
 
 Aca conocimos verdaderos Fans Pokemon, usuarios asiduos de la aplicacion, que intercambian sus conocimientos, y que muy entusiasmados nos entregaron su opinion respecto a los problemas más frecuentes con _Pokemon Go_ y como creen que mejoraria su experiencia con nuestra aplicacion en su desempeño al jugar.
 
-<img src="https://i.ibb.co/mhm9vnM/IMG-20191212-WA0006-1.jpg" alt="img1"  width="400" height="200"><img src="https://i.ibb.co/1GKC0ng/IMG-20191212-WA0008-1.jpg" alt="img2"  width="400" height="200">
-<img src="https://i.ibb.co/C8dXsRh/IMG-20191212-WA0007-1.jpg" alt="img3"  width="400" height="200"><img src="https://i.ibb.co/3zgx8nW/71028325-476387566419912-530097087149244416-o-1.jpg" alt="img4"  width="400" height="200">
+<img src="https://i.ibb.co/mhm9vnM/IMG-20191212-WA0006-1.jpg" alt="img1"  width="400" height="300"> <img src="https://i.ibb.co/1GKC0ng/IMG-20191212-WA0008-1.jpg" alt="img2"  width="400" height="300">
+<img src="https://i.ibb.co/C8dXsRh/IMG-20191212-WA0007-1.jpg" alt="img3"  width="400" height="300"> <img src="https://i.ibb.co/3zgx8nW/71028325-476387566419912-530097087149244416-o-1.jpg" alt="img4"  width="400" height="300">
 
 Al presentarles nuestro sketch y como pensaban
 
@@ -200,7 +200,7 @@ Con esto le dimos una identidad especifica de _Pokemon Go_.
 Tanto la paleta de colores elegida como el Background de Universo, fueron seleccionados para que de manera implicita demuestre que es una aplicacion relacionada con juego, sin la necesidad de explicar a traves de texto e instrucciones su relacion con la app _Pokemon Go_ .
  
  
-![Go](https://i.ibb.co/8bQpjGm/pokemon-go-large-sized-png-logo-2-1.png)
+<img src="https://i.ibb.co/8bQpjGm/pokemon-go-large-sized-png-logo-2-1.png" alt="Go"  width="200" height="200">
 
 
 
