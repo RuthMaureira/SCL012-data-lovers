@@ -180,13 +180,9 @@ Aca conocimos verdaderos Fans Pokemon, usuarios asiduos de la aplicacion, que in
 <img src="https://i.ibb.co/mhm9vnM/IMG-20191212-WA0006-1.jpg" alt="img1"  width="400" height="300"> <img src="https://i.ibb.co/1GKC0ng/IMG-20191212-WA0008-1.jpg" alt="img2"  width="400" height="300">
 <img src="https://i.ibb.co/C8dXsRh/IMG-20191212-WA0007-1.jpg" alt="img3"  width="400" height="300"> <img src="https://i.ibb.co/3zgx8nW/71028325-476387566419912-530097087149244416-o-1.jpg" alt="img4"  width="400" height="300">
 
-Al presentarles nuestro sketch y como pensaban
+Al presentarles nuestro sketch, sus respuestas indicaron que necesitaban ver la información de Pokemon presentada de una manera mas acotada e hicieron hincapie en algunas características que ellos consideran más importantes para jugar mejor, lo que se tradujo en mejorar nuestras historias de usuario.
 
 
-
-Sus respuestas indicaron que necesitaban ver la información de pokemones presentada de cierta manera y sobre todo algunas características que ellos consideran más importantes para jugar mejor lo que se tradujo en nuestras historias de usuario.
-
-Nuestro producto ayuda a mejorar la estrategia del usuario al manejar la información más requerida o relevante para ellos además les ahorra tiempo al no tener que analizar toda la informacion y retenerla por ellos mismos.Nuestro usuario tendría la información mostrada en nuestra página a manera de guia al jugar Pokémon GO.
 
 
 
@@ -200,7 +196,7 @@ Ocupando el azul como color primario y el amarillo como color secundario, solo p
 Esta eleccion se dio en forma natural, debido a que el amarillo como color dominante, satura y quita la atencion de las Imagenes, sin embargo en pequeñas dosis puede dar la sensacion de energia y positividad.
 Mientras que el azul, el unico color primario del espectro frio, si bien es llamativo, ayuda a destacar sin agotar la vision, da una sensacion de calma y las letras en blanco son mas legibles en el.
 
- <img src="https://i.ibb.co/ZzpKJ83/Screenshot-from-2019-12-11-15-17-21.png"  alt="logo"    width="400" height="200"> 
+ <img src="https://i.ibb.co/ZzpKJ83/Screenshot-from-2019-12-11-15-17-21.png"  alt="logo"    width="350" height="200"> 
 
 
 
@@ -264,7 +260,7 @@ Alinear los elementos es una operación imprescindible para conseguir una compos
 Para que se vea ordenado y simetrico, organizamos los contenidos para que se alinearan segun su naturaleza.
 Los contenedores del menu van a la misma distancia entre ellos, agrupados a la misma altura .Al igual que el texto, los botones de select e input , de esta manera se nota que estan relacionados entre si, a pesar de no cumplir la misma funcion.
 La alineacion en las tarjetas de imagenes, tambien es super importante, estas estan alineadas en grupos de 6 en en el caso de desktop , y dos en dos en el caso de movil. Se cuidara mucho que se mantenga la alineacion del menu en la vista de cada uno de los 
-Por ultimo el texto 
+Por ultimo el texto de las tarjetas , seran alineados a la izquierda, porque es un espacio pequeño que contiene bastante informacion , para que esta no genere tension visual , al ser la letra mas pequeña.
 
 
 
@@ -272,17 +268,24 @@ Por ultimo el texto
 ### Proximidad
 
 
-
+Todos los elementos similares deben estar próximos. Esto es importante para estructurar la información.
+Analizando desde arriba hacia abajo, en el header existe 3 secciones para navegar a traves de la interfaz , estan estan proximas entre si para diferenciarse del titulo.
+Luego en el menu de funciones, se puede ver agrupados los contenedores, para que el usuario comprenda que es la seccion donde puede realizar interacciones con la pagina, esto le dara mas organizacion.
+Las tarjetas estaran cerca unas de otras, para visualmente formar un menu de imagenes, en lugar de varios elementos separados. Esto permite que el usuario tenga conciencia de que existe una estructura definida y que pueda visualizar la tarjeta en forma individualmente o como parte de un conjunto de imagenes.
+En la parte inferior, se podra observar el footer, en esta seccion pondremos agrupados iconos de redes sociales, enlazadas a las paginas oficiales.
 
 
 
 ### Jerarquia
 
-Existe un orden jerárquico en la visión siendo el primer punto el más importante. Jerarquizar es ordenar en función de distintos parámetros diversos elementos. En el diseño, la jerarquía establece la mayor o menos importancia de los elementos que incluimos. En concreto es aquello que prioriza la visión.
-Algunos de los elementos gráficos como el color, el tamaño, la posición, las anomalías, las formas , tienen una clara connotación jerárquica.
-En este caso se aplico principalmente con la Tipografia.
-Las palabras más importantes muestran un mayor impacto, por lo que los usuarios pueden obtener la información clave con mayor claridad, entonces al dar reelevancia a los titulos de las secciones en relacion con el resto del texto aumentando su tamaño, llamará más la atención por lo que tendrán mayor grado de importancia. 
 
+Existe un orden jerárquico en la visión siendo el primer punto el más importante. Nosotras aplicaremos este principio a traves de la tipografia. 
+Las palabras más importantes muestran un mayor impacto, por lo que los usuarios pueden obtener la información clave con mayor claridad, entonces al dar reelevancia a los titulos de las secciones en relacion con el resto del texto aumentando su tamaño, llamará más la atención por lo que tendrán mayor grado de importancia. 
+El orden jerarquico se distribuira de la siguiente manera (mayor a menor desde la parte superior a la inferior de la pagina) disminuyendo el tamaño de las fuentes.
+Titulos 
+Menu de pagina y menu de funciones , mantiene el mismo tamaño ( por coincidir en que son parte de un menu ,aunque sean secciones diferentes)
+Nombres , tipo y id de tarjetas ( mismo tamaño diferente grosor para diferenciarse entre si )
+Datos tarjeta ,ocupa el tamaño mas pequeño por un tema de espacio y orden.
 
 
 ## Fuentes
@@ -291,13 +294,17 @@ Las palabras más importantes muestran un mayor impacto, por lo que los usuarios
 
 La tipografia se eligio desde google fonts de acuerdo a 2 objetivos: 
 
-####"Que sea moderna": 
+
+* "Que sea moderna" 
 Porque el diseño de la app , si bien esta enfocado en un grupo etareo bastante amplio, la aplicacion es juvenil y animada , por ello , requiere una letra que coincida , con la Imagen que se desea mostrar.
 
-####"Que sea legible": 
+
+
+* "Que sea legible"
 Porque al contener bastante informacion ( especificamente en las tarjetas ) distribuida en lineas cercanas unas de otras , requiere una letra que se vea ordenada , sin quiebres para mayor fluidez en la lectura.
 
-por ello la eleccion fue: 
+
+Por ello la eleccion fue: 
 
 * Roboto, sans-serif: Para titulos y textos cortos.
 
@@ -336,22 +343,13 @@ ___
 
 Puedes interactuar con el prototipo haciendo click [aquí](https://www.figma.com/proto/g2i9Bvwto2WzKsHI3S1yvN/Pokemon-Android?node-id=2%3A2&scaling=scale-down)
 
-
-Versión para tablet: Esta version es muy parecida a la version movil, tambien con portada, la diferencia es que al ser un poco mas grande permite ver un poco mas de tarjetas en la pantalla. 
 ___ 
-![Figma]()
 
 
-![Figma]()
+Versión para tablet: Esta version es muy parecida a la version desktop, sin portada como la version movil, la diferencia es que al ser un poco mas grande permite ver un poco mas de tarjetas en la pantalla ( cuatro tarjetas). 
 
 
-
-
-
-Puedes interactuar con el prototipo haciendo click [aquí]()
-
-
-
+___ 
 
 
 
@@ -386,15 +384,21 @@ Para ver la usabilidad del ultimo prototipo, se realizo un testeo a la versión 
 
 ### Objetivos de testeo
 
+
+
+* Comprobar si el contenido se hace familiar, comprensible y esta alineado con la aplicacion _Pokemon Go_
 * Probar si la interfaz es fácil de entender o necesita mayor instrucción.
 * Comprobar si el acceso y los enlaces siguen un orden lineal.
-* Comprobar sia.
- 
+* Comprobar si el usuario sabe donde esta posicionado 
+* Comprobar si los principios de Diseño aplicados cumplen su objetivo (estetica , visualizacion, legibilidad)
+
+Para ver si se cumplen estos objetivos, haremos uso de la Evaluacion heuristica en su version acotada.
 
 
 ## Test de usabilidad
 
-Como es un sitio ....l.
+
+Contactamos nuevamente a 
 
 
 
@@ -491,7 +495,7 @@ Para ver el video del ultimo usuario probando el prototipo . Ver en este link [a
 ## Conclusiones y posibles Soluciones
 
 
-![prototipo]()
+![Interfaz final]()
 
 Uno de los cambios que se realizaron en la aplicacion final 
 
@@ -537,12 +541,17 @@ Si esta web existiera, la ocuparian, ya que consideran que tiene caracteristicas
 
 
 
-CAMBIOS PROTOITPO , A APLICACION FINAL.
+## Cambios del prototipo a interfaz final 
 
 
-- se quita boton Inicio del menu ; ya que redundante y se puede volver AL INCIIO A TRAVES DE OTROS BOTONES
+* Se quita boton _Inicio_ del menu principal:
+  Porque era redundante , y no era util , es posible volver al inicio a traves de otras opciones.
 
- 
+* Se agrega contenido a opcion _Kantotop_ :
+  En un comienzo solo contendria infografias estadisticas, respecto a _Pokemon Go_ , pero finalmente se pudo concretar una nueva historia de usuario sugerida , respecto a calcular frecuencia de apariciones en grafico de barras , y un menu dentro de esa seccion , donde se puede observar los Pokemon Legendarios.
+
+
+Podemos concluir que con esta experiencia de investigacion y desarrollo, esperamos que nuestro producto ayude a mejorar la estrategia del usuario al manejar la información más requerida o relevante para ellos, además de ahorrar tiempo al no tener que analizar todos los datos y retenerlos por ellos mismos.Nuestra meta es que el usuario obtenga la información de la app a manera de guia, al jugar _Pokémon GO_.
 
 
 
