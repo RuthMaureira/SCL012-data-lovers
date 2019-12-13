@@ -38,6 +38,8 @@ Su nombre es producto de la union de las palabras _Kanto_, (donde se encuentra _
 Con esta app, el usuario podra acceder a informacion de forma simple sin la necesidad de Instrucciones, para complementar y mejorar su rendimiento en el juego y  convertirse en todo un Maestro Pokemon. 
 
 
+
+
 ## Definición del Producto
 
 Es una Aplicacion/Enciclopedia y sirve tanto para complementar el juego _Pokemon Go_, como para conocer y adentrarse sobre el diverso y fascinante mundo Pokemon.
@@ -48,9 +50,6 @@ Permite filtrar y ordenar Pokemon segun su tipo ( planta , agua , roca , entre o
 
 
 
-
-
- 
 ##  Tipo de usuario
 
 
@@ -141,13 +140,34 @@ Este contaba con:
 ## Investigacion y Desarrollo
 
 
-Una vez hecho el sketch,  cumplieran con 3 caracteristicas principales:
 
-1)
+Para diseñar esta webapp nos basamos en entrevistas que realizamos a jugadores habituales de _Pokémon GO_ .
+Buscamos por internet y redes sociales, concluyendo que existian redes completas de fans del juego, por lo que nos dirigimos a dos puntos especificos de reunion: Parque Forestal y tienda _Deckmachine_ en Santiago centro.
 
-2)
+En el Parque forestal, consultamos al azar a 3 jovenes jugadores que acostumbraban a cazar pokemon algunas tardes en la semana.
+Les presentamos nuestro sketch y les pedimos feedback para comprender mejor sus necesidades y modificar el prototipo para que cumpliera con sus exigencias. Sin embargo nos dimos cuenta que el publico consultado del parque era bastante heterogeneo, osea se puede encontrar desde un usuario principiante, que por coincidencia paso por ahi y aprovecho la ocasion para jugar, hasta un usuario mucho mas avanzado que participa en salidas grupales organizadas al parque a capturar Pokemon.
 
-3)
+Intentando profundizar aun mas en el Usuario frecuente de la aplicacion , visitamos _Deckmachine_ una tienda que se especializa en productos coleccionables y mazos de cartas tematicos. En este lugar ademas, se organizan campeonatos y eventos en torno al anime.
+
+Puedes visitar su sitio web  [aquí](https://www.deckmachine.cl/categoria-producto/pokemon-tcg/)
+
+Aca conocimos verdaderos Fans Pokemon, usuarios asiduos de la aplicacion, que intercambian sus conocimientos, y que muy entusiasmados nos entregaron su opinion respecto a los problemas más frecuentes con _Pokemon Go_ y como creen que mejoraria su experiencia con nuestra aplicacion en su desempeño al jugar.
+
+![imagen](https://i.ibb.co/mhm9vnM/IMG-20191212-WA0006-1.jpg)
+![imagen](https://i.ibb.co/1GKC0ng/IMG-20191212-WA0008-1.jpg)
+![imagen](https://i.ibb.co/C8dXsRh/IMG-20191212-WA0007-1.jpg)
+![imagen](https://i.ibb.co/3zgx8nW/71028325-476387566419912-530097087149244416-o-1.jpg)
+
+Al presentarles nuestro sketch y como pensaban
+
+
+
+Sus respuestas indicaron que necesitaban ver la información de pokemones presentada de cierta manera y sobre todo algunas características que ellos consideran más importantes para jugar mejor lo que se tradujo en nuestras historias de usuario.
+
+Nuestro producto ayuda a mejorar la estrategia del usuario al manejar la información más requerida o relevante para ellos además les ahorra tiempo al no tener que analizar toda la informacion y retenerla por ellos mismos.Nuestro usuario tendría la información mostrada en nuestra página a manera de guia al jugar Pokémon GO.
+
+
+
 
 
 
@@ -161,14 +181,18 @@ Ocupando el azul como color primario y el amarillo como color secundario, solo p
 Esta eleccion se dio en forma natural, debido a que el amarillo como color dominante, satura y quita la atencion de las Imagenes, sin embargo en pequeñas dosis puede dar la sensacion de energia y positividad.
 Mientras que el azul, el unico color primario del espectro frio, si bien es llamativo, ayuda a destacar sin agotar la vision, da una sensacion de calma y las letras en blanco son mas legibles en el.
 
- <img src="https://i.ibb.co/ZzpKJ83/Screenshot-from-2019-12-11-15-17-21.png"  alt="logo"    width="800" height="400"> 
+ <img src="https://i.ibb.co/ZzpKJ83/Screenshot-from-2019-12-11-15-17-21.png"  alt="logo"    width="500" height="200"> 
 
 
 
-Si quieres revisar la paleta de colores puedes seguir este enlace: [aquí](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=185ee3&secondary.color=ffcc03)
+
 
 
 ![paleta](https://i.ibb.co/7jnMmvc/Screenshot-from-2019-12-11-15-32-52.png)
+
+
+
+ Si quieres revisar la paleta de colores puedes seguir este enlace: [aquí](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=185ee3&secondary.color=ffcc03)
 
 
 
