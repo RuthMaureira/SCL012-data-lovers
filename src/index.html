@@ -39,24 +39,26 @@
 
   <!-- navbar navegación -->
   <nav class="navigation" id="navigation">
-    <a href="" class="logo">KantoDex</a>
+    <a href="index.html" class="logo">KantoDex</a>
     <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
     <ul class="menu">
       <!-- <li><a href="#home" id="inicio">Inicio</a></li> -->
       <li><a href="index.html" id="link_Kantodex">KantoDex</a></li>
       <li><a href="estadistica.html" id="link_kantotop">KantoTop</a></li>
+      <li><a href="#contacto"><i class="fas fa-rss-square"></i></a></li>
     </ul>
   </nav>
 
   <!-- sección kantodex -->
   <section class="container" id="kantodex">
-    <button id="myBtn"><i class="far fa-pause-circle fa-2x"></i></button>
-
     <div class="seleccion">
       <div class="searchKanto sizeSelect">
         <h4>Nombre o Número:</h4>
-        <input id="inputPoke" list="listPoke" class="inputPoke" type="text" size="15" name="text">
+        <div class="inputIcon">
+          <input id="inputPoke" list="listPoke" class="inputPoke" type="text" size="35" name="text" placeholder="Nombre o Número">
+          <i class="fas fa-search" aria-hidden="true"></i>
+        </div>
         <datalist id="listPoke"></datalist>
         <button id="btnSearch">GO!</button>
       </div>
@@ -129,12 +131,12 @@
   <div id="wrap" class="wrap"></div>
 
   <footer id="contacto" class="oscuro">
-		<a href="https://www.facebook.com/PokemonGO/" target="_blank"><i class="fab fa-facebook-square fa-4x"></i></a>
-		<a href="https://twitter.com/pokemongoapp" target="_blank"><i class="fab fa-twitter-square fa-4x"></i></a>
-		<a href="https://www.instagram.com/pokemongoapp" target="_blank"><i class="fab fa-instagram fa-4x"></i></a>
-    <a href="https://dondepokemongo.es/blog.html" target="_blank"><i class="fab fa-blogger fa-4x"></i></a>
-		<p>M&V 2019. Todos los derechos reservados.</p>
-	</footer>
+    <a href="https://www.facebook.com/PokemonGO/" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
+    <a href="https://twitter.com/pokemongoapp" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
+    <a href="https://www.instagram.com/pokemongoapp" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+    <a href="https://dondepokemongo.es/blog.html" target="_blank"><i class="fab fa-blogger fa-3x"></i></a>
+    <p>M&V 2019. Todos los derechos reservados.</p>
+  </footer>
 
 
   <script type="module" src="main.js"></script>

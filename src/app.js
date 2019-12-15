@@ -1,25 +1,3 @@
-/*Video: pause and play */
-/* Se crea variables para conectar DOM con HTML */
-const video = document.getElementById("myVideo");
-const btn = document.getElementById("myBtn");
-
-/* cuando se presione botón: pause or play*/
-btn.addEventListener('click', videoAction);
-
-function videoAction() {
-  /* Si video estaba pausado y presionan botón, dar play y cambiar ícono*/
-  if (video.paused) {
-    video.play();
-    btn.innerHTML = '<i class="far fa-pause-circle fa-2x"></i>';
-  } else {
-    video.pause();
-    btn.innerHTML = '<i class="far fa-play-circle fa-2x"></i>';
-  }
-}
-
-/*---------------------------------------------------------------------------------*/
-
-
 /* Función que crea cards con info de pokemon*/
 function createCard(objPoke) {
 
@@ -137,15 +115,15 @@ function createCard(objPoke) {
 /*Data a utilizar*/
 import POKEMON from './data/pokemon/pokemon.js'
 
-import {
-  orderPoke
-} from './data.js';
+// import {
+//   orderPoke
+// } from './data.js';
 
 
 
 /*---------------------------------------------------------------------------------*/
 
-let result1, result2;
+// let result1, result2;
 
 /* Gráfica */
 google.charts.load("current", {
@@ -154,10 +132,10 @@ google.charts.load("current", {
 google.charts.setOnLoadCallback(drawChart1);
 
 function drawChart1() {
-  result1 = orderPoke(POKEMON, 'spawn', 'desc');
-  result2 = result1.filter(poke => poke.avg_spawns > 0);
-
-  console.log(result2);
+  // result1 = orderPoke(POKEMON, 'spawn', 'desc');
+  // result2 = result1.filter(poke => poke.avg_spawns > 0);
+  //
+  // console.log(result2);
 
   let data = google.visualization.arrayToDataTable([
     ['Element', 'Avg Spawns', {
@@ -205,7 +183,7 @@ function drawChart1() {
 
 /*---------------------------------------------------------------------------------*/
 
-let result3, result4;
+// let result3, result4;
 
 /* Gráfica */
 google.charts.load("current", {
@@ -215,10 +193,10 @@ google.charts.setOnLoadCallback(drawChart2);
 
 function drawChart2() {
 
-  result3 = orderPoke(POKEMON, 'spawn', 'asc');
-  result4 = result1.filter(poke => poke.avg_spawns > 0);
-
-  console.log(result4);
+  // result3 = orderPoke(POKEMON, 'spawn', 'asc');
+  // result4 = result1.filter(poke => poke.avg_spawns > 0);
+  //
+  // console.log(result4);
 
   let data = google.visualization.arrayToDataTable([
     ['Element', 'Avg Spawns', {
@@ -267,10 +245,10 @@ function drawChart2() {
 
 /* Legendarios */
 
-let legend = [132, 144, 145, 146, 150, 151];
+// let legend = [132, 144, 145, 146, 150, 151];
 let resultLegend = POKEMON.filter(poke => poke.avg_spawns == 0);
-console.log(resultLegend);
-
+// console.log(resultLegend);
+//
 for (let i = 0; i < 6; i++) {
   /* pedir que vacie wrap en html */
   // document.getElementById("chart_wrap").innerHTML = "";
@@ -281,14 +259,14 @@ for (let i = 0; i < 6; i++) {
   let cardWrap = document.getElementById('barchart1');
   cardWrap.appendChild(tarjeta);
 }
-
-
-
-
-
-/*---------------------------------------------------------------------------------*/
-
-/*---------------------------------------------------------------------------------*/
+//
+//
+//
+//
+//
+// /*---------------------------------------------------------------------------------*/
+//
+// /*---------------------------------------------------------------------------------*/
 
 
 let select1 = document.getElementById("legend");
@@ -307,6 +285,8 @@ const bar4 = document.getElementById("chart_wrap");
 function legendarios() {
   bar1.style.display = "flex";
   bar4.style.display = "none";
+  bar2.style.display = "none";
+  bar3.style.display = "none";
 }
 
 function masfrec() {
@@ -315,7 +295,7 @@ function masfrec() {
   bar2.style.display = "block";
   bar3.style.display = "none";
 }
-
+//
 function menosfrec() {
   bar1.style.display = "none";
   bar4.style.display = "block";

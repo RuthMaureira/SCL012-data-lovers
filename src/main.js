@@ -1,24 +1,3 @@
-/*Video: pause and play*/
-/* Se crea variables para conectar DOM con HTML */
-const video = document.getElementById("myVideo");
-const btn = document.getElementById("myBtn");
-
-/* cuando se presione botón: pause or play*/
-btn.addEventListener('click', videoAction);
-
-function videoAction() {
-  /* Si video estaba pausado y presionan botón, dar play y cambiar ícono*/
-  if (video.paused) {
-    video.play();
-    btn.innerHTML = '<i class="far fa-pause-circle fa-2x"></i>';
-  } else {
-    video.pause();
-    btn.innerHTML = '<i class="far fa-play-circle fa-2x"></i>';
-  }
-}
-
-/*---------------------------------------------------------------------------------*/
-
 /* Ingreso mobile al hacer click en ball */
 
 let home = document.getElementById("home");

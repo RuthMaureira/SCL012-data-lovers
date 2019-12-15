@@ -21,49 +21,22 @@ body {
   z-index: -100;
 }
 
-#myBtn {
-  float: left;
-  margin-left: 2rem;
-  margin-top: -2rem;
-  background-color: #3A69C2;
-}
-
+/* Version mobile */
 #kantodex, #contacto, #wrap, #navigation {
   display: none;
 }
 
 #home {
-  display:block;
+  display: block;
 }
 
-.inputPoke, #btnSearch, .tipoPoke, .huevoPoke, .candyPoke, .ordenPoke  {
-  height: 1.6rem;
-  width: 8rem;
-  font-weight: bolder;
 
-}
+/* id kantodex */
 
-#btnSearch {
-  width: 3rem;
-  margin-left: 0.8rem;
-}
-
-.searchKanto h4 {
-  padding-left: 5.4rem;
-}
-
-.typeKanto h4 {
-  padding-left: 0.45rem;
-}
-
-.eggCount h4, .candyCount h4, .sortKanto h4  {
-  padding-left: 0.15rem;
-}
-
+/* home */
 .poke {
   width: 25rem;
 }
-
 
 .title {
   margin-top: 3rem;
@@ -71,12 +44,10 @@ body {
 }
 
 .title2 {
-
   text-align: center;
 }
 
 .ball {
-
   width: 250px;
   height: 250px;
   background-image: url('images/ball.png');
@@ -105,7 +76,19 @@ body {
 
 /* navigation */
 a {
-  color: #FFF;
+  color: white;
+}
+
+#navigation .active a{ color: #3A69C2; }
+
+/* #navigation ul li.active a{ color: #3A69C2; } */
+
+.logo {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 3rem;
+  margin: 15px 0;
+  text-shadow: 0 0 70px #fff, 0 0 10px #ece4dd;
 }
 
 .navigation {
@@ -237,6 +220,134 @@ a {
   color: #3A69C2;
 }
 
+/* seleccion */
+.inputPoke, #btnSearch, .tipoPoke, .huevoPoke, .candyPoke, .ordenPoke {
+  height: 1.6rem;
+  width: 8rem;
+  font-weight: bolder;
+}
+
+#btnSearch {
+  width: 3rem;
+  margin-left: 0.8rem;
+}
+
+.searchKanto h4 {
+  padding-left: 2.3rem;
+}
+
+.typeKanto h4 {
+  padding-left: 0.45rem;
+}
+
+.eggCount h4, .candyCount h4, .sortKanto h4 {
+  padding-left: 0.15rem;
+}
+
+/* Section container */
+.container {
+  padding-top: 9rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container h1, .home h1, .kantotop h1 {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 70px #fff, 0 0 10px #ece4dd;
+}
+
+
+
+.seleccion {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.sizeSelect {
+  background-color: #3A69C2;
+  color: #fff;
+  width: 11rem;
+  height: 8rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  border: 3px solid #fff;
+  box-shadow: 0 0 20px #fff;
+  border-radius: 20px;
+}
+
+.seleccion h4 {
+  margin: 1rem 1rem;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.searchKanto {
+  width: 23rem;
+  display: inline-block;
+}
+
+input[type="text"] {
+  width: 100%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  /* margin: 8px 0; */
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #3A69C2;
+  box-shadow: 0 0 8px 0 #3A69C2;
+}
+
+.inputIcon input[type="text"] {
+  padding-left: 28px;
+}
+
+.inputIcon {
+  position: relative;
+  display: inline-block;
+}
+
+.inputIcon i {
+  position: absolute;
+  left: 0px;
+  top: -5px;
+  padding: 9px 8px;
+  color: #aaa;
+  transition: 0.3s;
+}
+
+.inputIcon input[type="text"]:focus + i {
+  color: #3A69C2;
+}
+/*
+.inputIcon.inputIconBg i {
+  background-color: #aaa;
+  color: #fff;
+  padding: 9px 4px;
+  border-radius: 4px 0 0 4px;
+}
+
+.inputIcon.inputIconBg input[type="text"]:focus + i {
+  color: #fff;
+  background-color: dodgerBlue;
+} */
+
+
+#inputPoke {
+  width: 12rem;
+  height: 1.7rem;
+}
+
+/* Estadistica.html */
 #chart_wrap {
   position: relative;
   height: 300px;
@@ -250,7 +361,7 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  display: none;
+  /* display: none; */
 }
 
 #barchart1 {
@@ -262,6 +373,47 @@ a {
 #barchart1 {
   margin-top: 1rem;
 }
+
+
+.kantotop {
+  padding-top: 9rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.seleccion2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.borde {
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.borde:hover {
+  color: White;
+  background: #AAAAAA;
+}
+
+.separacion {
+  padding-top: 10px;
+}
+
+.sizeSelect2 {
+  background-color: #3A69C2;
+  color: #fff;
+  width: 14rem;
+  height: 5rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  border: 3px solid #fff;
+  box-shadow: 0 0 20px #fff;
+}
+
 
 /* 48em = 768px */
 @media (min-width: 768px) {
@@ -311,8 +463,9 @@ a {
   }
 
   #home {
-    display:none;
+    display: none;
   }
+
   #chart_wrap {
     width: 70%;
     margin-top: 5rem;
@@ -413,98 +566,9 @@ a {
   margin-bottom: 0.5rem;
 }
 
-/* Section container */
-.container {
-  padding-top: 9rem;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.container h1, .home h1, .kantotop h1 {
-  color: #fff;
-  font-weight: bolder;
-  font-size: 3rem;
-  margin-bottom: 2rem;
-  text-shadow: 0 0 70px #fff, 0 0 10px #ece4dd;
-}
-
-.logo {
-  color: #fff;
-  font-weight: bolder;
-  font-size: 3rem;
-  margin: 15px 0;
-  text-shadow: 0 0 70px #fff, 0 0 10px #ece4dd;
-}
 
 
-.seleccion {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 1rem;
-}
-
-.sizeSelect {
-  background-color: #3A69C2;
-  color: #fff;
-  width: 11rem;
-  height: 8rem;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
-  border: 3px solid #fff;
-  box-shadow: 0 0 20px #fff;
-}
-
-.seleccion h4 {
-  margin: 1rem 1rem;
-  font-size: 1.2rem;
-  text-align: left;
-}
-
-.searchKanto {
-  width: 25rem;
-}
-
-.kantotop {
-  padding-top: 9rem;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.seleccion2 {
-  font-weight: bold;
-  font-size: 1.5rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.borde {
-  border-radius: 20px;
-  text-decoration: none;
-}
-
-.borde:hover {
-  color: White;
-  background: #AAAAAA;
-}
-
-.separacion {
-  padding-top: 10px;
-}
-
-.sizeSelect2 {
-  background-color: #3A69C2;
-  color: #fff;
-  width: 14rem;
-  height: 5rem;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
-  border: 3px solid #fff;
-  box-shadow: 0 0 20px #fff;
-}
-
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .sizeSelect2 {
     font-size: 1.2rem;
     width: 12rem;
@@ -520,7 +584,7 @@ a {
   text-align: center;
 }
 
-.oscuro a{
+.oscuro a {
   color: #ffffff;
   text-decoration: none;
 }
