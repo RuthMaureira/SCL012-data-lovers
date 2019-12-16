@@ -158,7 +158,11 @@ Este en un principio contaba con:
 
 
 ![sketch](https://i.ibb.co/3BqmLvv/20191213-123901-mh1576251712758.jpg)
- 
+ Version para Desktop
+
+
+![sketch](https://i.ibb.co/cQzVNxS/20191216-032621.jpg)
+ Version para celular
 
    
 ## Investigacion y Desarrollo
@@ -483,26 +487,40 @@ llevando a cabo funciones de teatro.
 
 * Nombre: Matias Ureta
 * Edad: 26 Años
-* Actividad : Ejecutivo en Claro
+* Actividad : Supervisor de ventas en Claro
 
 
 
 #### Observaciones del usuario
 
->" ".
+>"Creo que es una aplicacion bastante completa, funcionaria bastante bien ".
 
->" ".
 
->" ". 
+>"Me serviria la informacion de los huevos, el orden y si esto se estuviera actualizando con respecto a el juego, seria  bastante util ". 
 
+
+>"Seria entretenido saber el tamaño (peso y altura) de un Pokemon. Creo que uno como fan de Pokemon , buscaria saber esos datos bastante freaks pero entretenidos ".
 
 
 
 ![Figma](https://i.ibb.co/s5syCtS/Screenshot-20191213-124003-Gallery-1.jpg)
 
-Para ver el video de entrevista y testeo del prototipo . Ver en este link [aquí](youtube.com)
+Para ver el video de entrevista y testeo del prototipo . Puedes revisar los siguiente links 
+
+ Entrevista parte 1 [aquí](https://youtu.be/iXtHefHGv3s)
+ Entrevista parte 2 [aquí](https://youtu.be/vzaQB5p9Z1o)
+ Test usabilidad   [aquí](https://youtu.be/PAZKqp2DSq4)
+ Test usabilidad Desktop [aquí](https://youtu.be/9PRW02ZVCqk)
+ Feedback 1 [aquí](https://youtu.be/O6Sv7oQQCAA)
+ Feedback 2 [aquí](https://youtu.be/zwgVhtAUP3Q)
 
 
+#### Evaluacion heuristica
+
+
+Muchos errores de usabilidad son dificiles de identificar pero causan una gran diferencia en la experiencia del usuario.
+Las evaluaciones Heuristicas consisten en un analisis tecnico que busca identificar los errores de usabilidad y mostrar oportunidades de optimizacion, permitiendo encontrar hasta un 80% de los errores mas frecuentes por medio de una serie de verificaciones de objetivos.
+Para esto ocupamos una forma  de version simple de Evaluacion Heuristica.
 
 
 
