@@ -161,7 +161,7 @@ Este en un principio contaba con:
  Version para Desktop
 
 
-![sketch](https://i.ibb.co/cQzVNxS/20191216-032621.jpg)
+![sketch2](https://i.ibb.co/cQzVNxS/20191216-032621.jpg)
  Version para celular
 
    
@@ -507,12 +507,12 @@ llevando a cabo funciones de teatro.
 
 Para ver el video de entrevista y testeo del prototipo . Puedes revisar los siguiente links 
 
- Entrevista parte 1 [aquí](https://youtu.be/iXtHefHGv3s)
- Entrevista parte 2 [aquí](https://youtu.be/vzaQB5p9Z1o)
- Test usabilidad   [aquí](https://youtu.be/PAZKqp2DSq4)
- Test usabilidad Desktop [aquí](https://youtu.be/9PRW02ZVCqk)
- Feedback 1 [aquí](https://youtu.be/O6Sv7oQQCAA)
- Feedback 2 [aquí](https://youtu.be/zwgVhtAUP3Q)
+*Entrevista parte 1 [aquí](https://youtu.be/iXtHefHGv3s)
+*Entrevista parte 2 [aquí](https://youtu.be/vzaQB5p9Z1o)
+*Test usabilidad   [aquí](https://youtu.be/PAZKqp2DSq4)
+*Test usabilidad Desktop [aquí](https://youtu.be/9PRW02ZVCqk)
+*Feedback 1 [aquí](https://youtu.be/O6Sv7oQQCAA)
+*Feedback 2 [aquí](https://youtu.be/zwgVhtAUP3Q)
 
 
 #### Evaluacion heuristica
@@ -520,7 +520,7 @@ Para ver el video de entrevista y testeo del prototipo . Puedes revisar los sigu
 
 Muchos errores de usabilidad son dificiles de identificar pero causan una gran diferencia en la experiencia del usuario.
 Las evaluaciones Heuristicas consisten en un analisis tecnico que busca identificar los errores de usabilidad y mostrar oportunidades de optimizacion, permitiendo encontrar hasta un 80% de los errores mas frecuentes por medio de una serie de verificaciones de objetivos.
-Para esto ocupamos una forma  de version simple de Evaluacion Heuristica.
+En esta ocacion ocupamos una forma  de version simplificada de Evaluacion Heuristica.
 
 
 
