@@ -161,8 +161,9 @@ Este en un principio contaba con:
  Version para Desktop
 
 
-![sketch2](https://i.ibb.co/cQzVNxS/20191216-032621.jpg)
- Version para celular
+
+![sketch 2](https://i.ibb.co/cQzVNxS/20191216-032621.jpg)
+Version para celular
 
    
 ## Investigacion y Desarrollo
@@ -507,12 +508,12 @@ llevando a cabo funciones de teatro.
 
 Para ver el video de entrevista y testeo del prototipo . Puedes revisar los siguiente links 
 
-*Entrevista parte 1 [aquí](https://youtu.be/iXtHefHGv3s)
-*Entrevista parte 2 [aquí](https://youtu.be/vzaQB5p9Z1o)
-*Test usabilidad   [aquí](https://youtu.be/PAZKqp2DSq4)
-*Test usabilidad Desktop [aquí](https://youtu.be/9PRW02ZVCqk)
-*Feedback 1 [aquí](https://youtu.be/O6Sv7oQQCAA)
-*Feedback 2 [aquí](https://youtu.be/zwgVhtAUP3Q)
+* Entrevista parte 1 [aquí](https://youtu.be/iXtHefHGv3s)
+* Entrevista parte 2 [aquí](https://youtu.be/vzaQB5p9Z1o)
+* Test usabilidad   [aquí](https://youtu.be/PAZKqp2DSq4)
+* Test usabilidad Desktop [aquí](https://youtu.be/9PRW02ZVCqk)
+* Feedback 1 [aquí](https://youtu.be/O6Sv7oQQCAA)
+* Feedback 2 [aquí](https://youtu.be/zwgVhtAUP3Q)
 
 
 #### Evaluacion heuristica
