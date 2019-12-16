@@ -162,7 +162,7 @@ Este en un principio contaba con:
 
 
 
-![sketch 2](https://i.ibb.co/cQzVNxS/20191216-032621.jpg)
+![sketch 2](https://ibb.co/KWCS9mp)
 Version para celular
 
    
