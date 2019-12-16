@@ -157,12 +157,12 @@ Este en un principio contaba con:
 * Tarjetas con imagenes e informacion detallada de cada Pokemon.
 
 
-![sketch](https://i.ibb.co/3BqmLvv/20191213-123901-mh1576251712758.jpg)
+ <img src="https://i.ibb.co/3BqmLvv/20191213-123901-mh1576251712758.jpg" alt="sketch1"  width="500" height="300">
  Version para Desktop
 
 
 
-![sketch 2](https://i.ibb.co/cQzVNxS/20191216-032621.jpg)
+ <img src="https://i.ibb.co/cQzVNxS/20191216-032621.jpg" alt="sketch2"  width="500" height="300">
 
 Version para celular
 
